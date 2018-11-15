@@ -1,0 +1,29 @@
+state={
+	id=839
+	name="STATE_839"
+	
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			191 1 
+		}
+		victory_points = {
+			5117 3 
+		}
+		add_core_of = COG
+		add_core_of = BEL
+
+	}
+	
+	provinces={
+		2220 9962 
+	}
+	manpower=2214001
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,247 @@
+form_greater_german_reich_category = {
+
+	form_greater_german_reich = {
+
+		icon = generic_form_nation
+
+		allowed = {
+		
+			OR = {
+			original_tag = BAV
+			original_tag = RHI
+			original_tag = NOG
+			original_tag = PRS
+			original_tag = BRB
+			original_tag = BAW
+			}
+		}
+
+		available = {
+			is_subject = no
+			has_full_control_of_state = 64
+			has_full_control_of_state = 51
+			has_full_control_of_state = 5
+			has_full_control_of_state = 50
+			has_full_control_of_state = 52
+			has_full_control_of_state = 59
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+			has_war = no
+		}
+
+		visible = {
+			NOT = { has_global_flag = form_greater_german_reich_flag }
+			OR = {
+				original_tag = BAV
+				original_tag = RHI
+				original_tag = BAW
+				original_tag = NOG
+				original_tag = PRS
+				original_tag = BRB
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = GER_UNITED
+			set_province_name = { id = 6521 name = "Berlin" }
+			set_capital = 64
+			hidden_effect = {
+				set_global_flag = form_greater_german_reich_flag
+				news_event = { id = german_unity_news.1 hours = 6 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_greater_soviet_category = {
+
+	form_greater_soviet = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = SOV
+		}
+
+		available = {
+			is_subject = no
+			has_full_control_of_state = 195
+			has_full_control_of_state = 219
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+			has_war = no
+		}
+
+		visible = {
+			original_tag = SOV
+			NOT = { has_global_flag = form_greater_soviet_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SOV_UNIFIED
+			set_capital = 219
+			hidden_effect = {
+				set_global_flag = form_greater_soviet_flag
+				news_event = { id = russia_news.1 hours = 6 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_greater_russia_category = {
+
+	form_greater_russia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = RUS
+			has_war = no
+		}
+
+		available = {
+			is_subject = no
+			has_full_control_of_state = 195
+			has_full_control_of_state = 219
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		visible = {
+			original_tag = RUS
+			NOT = { has_global_flag = form_greater_russia_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = RUS_UNIFIED
+			set_capital = 219
+			hidden_effect = {
+				set_global_flag = form_greater_russia_flag
+				news_event = { id = russia_news.2 hours = 6 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_romania_category = {
+
+	form_romania = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			original_tag = MOL
+			original_tag = ROM
+			has_war = no
+			}
+		}
+
+		available = {
+			is_subject = no
+			has_full_control_of_state = 46
+			has_full_control_of_state = 81
+			has_full_control_of_state = 79
+			has_full_control_of_state = 78
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+			OR = {
+			original_tag = ROM
+			original_tag = MOL
+			}
+		}
+
+		visible = {
+			OR = {
+			original_tag = MOL
+			original_tag = ROM
+			}
+			NOT = { has_global_flag = form_romania_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ROM_UNIFIED
+			set_capital = 46
+			hidden_effect = {
+				set_global_flag = form_romania_flag
+				news_event = { id = romania_unity_news.1 hours = 6 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_britain_category = {
+
+	form_britain = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			original_tag = NTH
+			original_tag = ENG
+			original_tag = NSC
+			original_tag = SCO
+			original_tag = WAL
+			has_war = no
+			}
+		}
+
+		available = {
+			is_subject = no
+			has_full_control_of_state = 126
+			has_full_control_of_state = 121
+			has_full_control_of_state = 131
+			has_full_control_of_state = 786
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		visible = {
+			OR = {
+			original_tag = ENG
+			original_tag = NTH
+			original_tag = SCO
+			original_tag = NSC
+			original_tag = WAL
+			}
+			NOT = { has_global_flag = form_britain_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ENG_UNIFIED
+			set_capital = 126
+			hidden_effect = {
+				set_global_flag = form_britain_flag
+				news_event = { id = britain_unity_news.1 hours = 6 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+#####ø

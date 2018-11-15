@@ -1,0 +1,23 @@
+state={
+	id=871
+	name="STATE_871"
+	
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = ARG
+		add_core_of = PAR
+
+	}
+	
+	provinces={
+		12922 12943 
+	}
+	manpower=112000
+	buildings_max_level_factor=1.000
+	state_category = town
+}

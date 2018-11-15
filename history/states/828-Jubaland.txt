@@ -1,0 +1,21 @@
+state={
+	id=828
+	name="STATE_828"
+	
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+
+	}
+	
+	provinces={
+		8133 10761 10976 11014 12927 12941 
+	}
+	manpower=542000
+	buildings_max_level_factor=1.000
+	state_category = town
+}

@@ -1,0 +1,24 @@
+state={
+	id=909
+	name="STATE_909"
+	
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = CLA
+
+	}
+	
+	provinces={
+		1104 1184 1200 4186 7105 10018 
+	}
+	manpower=820000
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

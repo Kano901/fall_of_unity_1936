@@ -1,0 +1,23 @@
+state={
+	id=890
+	name="STATE_890"
+	
+	history={
+		owner = BAL
+		add_core_of = EST
+		add_core_of = BAL
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+
+	}
+	
+	provinces={
+		185 6201 
+	}
+	manpower=29000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}
