@@ -1,0 +1,384 @@
+﻿add_namespace = uscivilwar
+
+country_event = {
+	id = uscivilwar.1
+	title = uscivilwar.1.t
+	desc = uscivilwar.1.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = no
+	
+	trigger = {
+		tag = USA
+		AND = {
+			date > 1936.1.7
+		}
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = { # Elections now!
+		name = uscivilwar.1.a
+		ai_chance = { factor = 90 }
+		USA = {
+			country_event = { days = 16 id = uscivilwar.2 }
+			country_event = { days = 7 id = uscivilwar_revolt.1 }
+		}
+	}
+	option = { # Wait for elections
+		name = uscivilwar.1.b
+		ai_chance = { factor = 10 }
+		USA = {
+			country_event = { days = 210 id = uscivilwar.2 }
+		
+		}
+		set_global_flag = us_civil_war_wait
+	}
+}
+
+country_event = {
+	id = uscivilwar.2
+	title = uscivilwar.2.t
+	desc = uscivilwar.2.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Elect the Democrats
+		name = uscivilwar.2.a
+		ai_chance = { factor = 50 }
+		USA = {
+			country_event = { days = 30 id = uscivilwar.3 }
+		}
+	}
+	option = { # Elect the Republicans
+		name = uscivilwar.2.b
+		ai_chance = { factor = 50 }
+		USA = {
+			country_event = { days = 30 id = uscivilwar.4 }
+		
+		}
+	}
+}
+
+country_event = {
+	id = uscivilwar.3
+	title = uscivilwar.3.t
+	desc = uscivilwar.3.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Huzzah!
+		name = uscivilwar.3.a
+		ai_chance = { factor = 50 }
+		USA = {
+			country_event = { days = 180 id = uscivilwar.5 }
+			
+		}
+	}
+}
+
+country_event = {
+	id = uscivilwar.4
+	title = uscivilwar.4.t
+	desc = uscivilwar.4.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Huzzah!
+		name = uscivilwar.4.a
+		ai_chance = { factor = 50 }
+		USA = {
+			country_event = { days = 180 id = uscivilwar.5 }
+			
+		}
+	}
+}
+
+country_event = {
+	id = uscivilwar.5
+	title = uscivilwar.5.t
+	desc = uscivilwar.5.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Oh No...
+		name = uscivilwar.5.a
+		ai_chance = { factor = 50 }
+		USA = {
+			country_event = { days = 10 id = uscivilwar.6 }
+			
+		}
+	}
+}
+
+country_event = {
+	id = uscivilwar.6
+	title = uscivilwar.6.t
+	desc = uscivilwar.6.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # So it begins...
+		name = uscivilwar.6.a
+		ai_chance = { factor = 50 }
+		USA = {
+			country_event = { days = 7 id = uscivilwar.7 }
+			SOC = {
+				transfer_state = 393
+				add_state_core = 393
+				transfer_state = 261
+				add_state_core = 261
+				transfer_state = 396
+				add_state_core = 396
+				transfer_state = 395
+				add_state_core = 395
+				transfer_state = 394
+				add_state_core = 394
+				transfer_state = 358
+				add_state_core = 358
+				transfer_state = 391
+				add_state_core = 391
+				transfer_state = 357
+				add_state_core = 357
+				transfer_state = 821
+				add_state_core = 821
+				transfer_state = 914
+				add_state_core = 914
+				transfer_state = 916
+				add_state_core = 916
+			}
+			
+		}
+		CAN = {
+			country_event = { days = 3 id = uscivilwarcan.1 }
+		}
+	}
+	
+	option = { # So it begins...
+		name = uscivilwar.6.b
+		ai_chance = { factor = 0 }
+		USA = {
+			SOC = { change_tag_from = ROOT }
+			SOC = {
+				transfer_state = 393
+				add_state_core = 393
+				transfer_state = 261
+				add_state_core = 261
+				transfer_state = 396
+				add_state_core = 396
+				transfer_state = 395
+				add_state_core = 395
+				transfer_state = 394
+				add_state_core = 394
+				transfer_state = 358
+				add_state_core = 358
+				transfer_state = 391
+				add_state_core = 391
+				transfer_state = 357
+				add_state_core = 357
+				transfer_state = 821
+				add_state_core = 821
+				transfer_state = 914
+				add_state_core = 914
+				transfer_state = 916
+				add_state_core = 916
+			}
+			country_event = { days = 7 id = uscivilwar.7 }
+			
+		}
+		CAN = {
+			country_event = { days = 3 id = uscivilwarcan.1 }
+		}
+	}
+}
+
+country_event = {
+	id = uscivilwar.7
+	title = uscivilwar.7.t
+	desc = uscivilwar.7.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Nationalist Revolt
+		name = uscivilwar.7.a
+		ai_chance = { factor = 50 }
+		USA = {
+			country_event = { days = 7 id = uscivilwar.8 }
+			NAT = {
+				transfer_state = 366
+				add_state_core = 366
+				transfer_state = 365
+				add_state_core = 365
+				transfer_state = 367
+				add_state_core = 367
+				transfer_state = 370
+				add_state_core = 370
+				transfer_state = 371
+				add_state_core = 371
+				transfer_state = 364
+				add_state_core = 364
+				transfer_state = 363
+				add_state_core = 363
+				transfer_state = 362
+				add_state_core = 362
+				transfer_state = 372
+				add_state_core = 372
+				transfer_state = 374
+				add_state_core = 374
+			}
+			
+		}
+	}
+	
+	option = { # Nationalist Revolt
+		name = uscivilwar.7.b
+		ai_chance = { factor = 0 }
+		USA = {
+			country_event = { days = 7 id = uscivilwar.8 }
+			NAT = { change_tag_from = ROOT }
+			NAT = {
+				transfer_state = 366
+				add_state_core = 366
+				transfer_state = 365
+				add_state_core = 365
+				transfer_state = 367
+				add_state_core = 367
+				transfer_state = 370
+				add_state_core = 370
+				transfer_state = 371
+				add_state_core = 371
+				transfer_state = 364
+				add_state_core = 364
+				transfer_state = 363
+				add_state_core = 363
+				transfer_state = 362
+				add_state_core = 362
+				transfer_state = 372
+				add_state_core = 372
+				transfer_state = 374
+				add_state_core = 374
+			}
+			
+		}
+	}
+}
+
+country_event = {
+	id = uscivilwar.8
+	title = uscivilwar.8.t
+	desc = uscivilwar.8.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Crush the Rebels
+		name = uscivilwar.8.a
+		ai_chance = { factor = 50 }
+		USA = {
+			country_event = { days = 7 id = uscivilwar.9 }
+			TEX = {
+				transfer_state = 375
+				add_state_core = 375
+				transfer_state = 913
+				add_state_core = 913
+				transfer_state = 868
+				add_state_core = 868
+				transfer_state = 867
+				add_state_core = 867
+				
+			}
+			MXR = {
+				transfer_state = 863
+				add_state_core = 863
+				transfer_state = 865
+				add_state_core = 865
+				transfer_state = 866
+				add_state_core = 866
+				transfer_state = 864
+				add_state_core = 864
+				transfer_state = 376
+				add_state_core = 376
+			}
+			
+			MEX = {
+				country_event = { days = 7 id = uscivilwarcan.2 }
+			}
+			
+		}
+	}
+	
+	option = { # For Texas
+		name = uscivilwar.8.b
+		ai_chance = { factor = 0 }
+		USA = {
+			country_event = { days = 7 id = uscivilwar.9 }
+			TEX = { change_tag_from = ROOT }
+			TEX = {
+				transfer_state = 375
+				add_state_core = 375
+				transfer_state = 913
+				add_state_core = 913
+				transfer_state = 868
+				add_state_core = 868
+				transfer_state = 867
+				add_state_core = 867
+			}
+			MXR = {
+				transfer_state = 863
+				add_state_core = 863
+				transfer_state = 865
+				add_state_core = 865
+				transfer_state = 866
+				add_state_core = 866
+				transfer_state = 864
+				add_state_core = 864
+				transfer_state = 376
+				add_state_core = 376
+			}
+			
+			MEX = {
+				country_event = { days = 7 id = uscivilwarcan.2 }
+			}
+			
+		}
+	}
+}
+
+country_event = {
+	id = uscivilwar.9
+	title = uscivilwar.9.t
+	desc = uscivilwar.9.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Crush the Anarchists!
+		name = uscivilwar.9.a
+		ai_chance = { factor = 50 }
+		USA = {
+			country_event = { days = 180 id = uscivilwar.10 }
+			ANR = {
+				transfer_state = 897
+				add_state_core = 897
+				transfer_state = 895
+				add_state_core = 895
+				transfer_state = 387
+				add_state_core = 387
+				transfer_state = 388
+				add_state_core = 388
+				transfer_state = 892
+				add_state_core = 892
+			}
+			ANR = {
+				country_event = { days = 7 id = uscivilwarcan.3 }
+			}
+			
+		}
+	}
+}

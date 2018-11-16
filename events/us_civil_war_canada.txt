@@ -1,0 +1,123 @@
+add_namespace = uscivilwarcan
+
+country_event = {
+	id = uscivilwarcan.1
+	title = uscivilwarcan.1.t
+	desc = uscivilwarcan.1.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Just the Border
+		name = uscivilwarcan.1.a
+		ai_chance = { factor = 80 }
+		CAN = {
+			transfer_state = 902
+			add_state_core = 902
+			transfer_state = 907
+			add_state_core = 907
+			transfer_state = 817
+			add_state_core = 817
+			
+			add_political_power = -25
+			
+		}
+		
+	}
+	
+	option = { # All for Canada!
+		name = uscivilwarcan.1.b
+		ai_chance = { factor = 10 }
+		CAN = {
+			transfer_state = 902
+			add_state_core = 902
+			transfer_state = 907
+			add_state_core = 907
+			transfer_state = 817
+			add_state_core = 817
+			transfer_state = 463
+			transfer_state = 818
+			add_state_core = 818
+			transfer_state = 820
+			transfer_state = 819
+			transfer_state = 908
+			
+			add_political_power = -100
+			
+		}
+	}
+	
+	option = { #No thanks, eh?
+		name = uscivilwarcan.1.c
+		ai_chance = { factor = 10 }
+		CAN = {
+			add_political_power = 25
+		}
+	}
+}
+
+country_event = {
+	id = uscivilwarcan.2
+	title = uscivilwarcan.2.t
+	desc = uscivilwarcan.2.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Retake Baja!
+		name = uscivilwarcan.2.a
+		ai_chance = { factor = 80 }
+		MEX = {
+			transfer_state = 484
+			add_state_core = 484
+			
+			add_political_power = -25
+			
+		}
+		
+	}
+	
+	option = { #No thanks
+		name = uscivilwarcan.2.b
+		ai_chance = { factor = 10 }
+		MEX = {
+			add_political_power = 25
+		}
+	}
+}
+
+country_event = {
+	id = uscivilwarcan.3
+	title = uscivilwarcan.3.t
+	desc = uscivilwarcan.3.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Occupy Canada
+		name = uscivilwarcan.3.a
+		ai_chance = { factor = 40 }
+		ANR = {
+			transfer_state = 899
+			add_state_core = 899
+			transfer_state = 900
+			add_state_core = 900
+			transfer_state = 898
+			add_state_core = 898
+			transfer_state = 893
+			add_state_core = 893
+			
+			add_political_power = -75
+			
+		}
+		
+	}
+	
+	option = { #No thanks
+		name = uscivilwarcan.3.b
+		ai_chance = { factor = 80 }
+		ANR = {
+			add_political_power = 25
+		}
+	}
+}

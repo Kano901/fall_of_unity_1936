@@ -1,0 +1,27 @@
+﻿add_namespace = romania_unity_news
+
+news_event = {
+	id = romania_unity_news.1
+	title = romania_unity_news.1.t
+	desc = romania_unity_news.1.d
+	picture = GFX_news_event_polish_army
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = romania_unity_news.1.a
+		trigger = {
+			NOT = {
+				TAG = MOL
+				TAG = ROM
+			}
+		}
+	}
+	option = {
+		name = romania_unity_news.1.b
+		trigger = { TAG = MOL }
+		trigger = { TAG = ROM }
+	}
+}

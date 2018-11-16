@@ -1,0 +1,39 @@
+﻿add_namespace = german_unity_news
+
+news_event = {
+	id = german_unity_news.1
+	title = german_unity_news.1.t
+	desc = german_unity_news.1.d
+	picture = GFX_news_event_003
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = german_unity_news.1.a
+		trigger = {
+			NOT = {
+				TAG = PRS
+				TAG = BAV
+				TAG = NOG
+				TAG = SUD
+				TAG = BRB
+				TAG = BAW
+				TAG = RHI
+			}
+		}
+	}
+	option = {
+		name = german_unity_news.1.b
+		OR = {
+		trigger = { TAG = RHI }
+		trigger = { TAG = SUD }
+		trigger = { TAG = NOG }
+		trigger = { TAG = BAV }
+		trigger = { TAG = BAW }
+		trigger = { TAG = PRS }
+		trigger = { TAG = BRB }
+		}
+	}
+}

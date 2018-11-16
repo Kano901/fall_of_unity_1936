@@ -1,0 +1,65 @@
+add_namespace = uscivilwar_problem
+
+country_event = {
+	id = uscivilwar_problem.1
+	title = uscivilwar_problem.1.t
+	desc = uscivilwar_problem.1.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = no
+	
+	trigger = {
+		tag = USA
+		AND = {
+		has_global_flag = us_civil_war_wait
+		}
+		AND = {
+		date > 1936.3.1
+		}
+	}
+		
+	
+	option = { # Anarchists
+		name = uscivilwar_problem.1.a
+		ai_chance = { factor = 50 }
+		USA = {
+			country_event = { days = 35 id = uscivilwar_problem.2 }
+			
+		}
+	}
+}
+
+country_event = {
+	id = uscivilwar_problem.2
+	title = uscivilwar_problem.2.t
+	desc = uscivilwar_problem.2.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Texans and Mexicans
+		name = uscivilwar_problem.2.a
+		ai_chance = { factor = 50 }
+		USA = {
+			country_event = { days = 35 id = uscivilwar_problem.3 }
+			
+		}
+	}
+}
+
+country_event = {
+	id = uscivilwar_problem.3
+	title = uscivilwar_problem.3.t
+	desc = uscivilwar_problem.3.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Nationalists
+		name = uscivilwar_problem.3.a
+		ai_chance = { factor = 50 }
+		USA = {
+			news_event = { days = 3 id = uscivilwar_news.2 }
+		}
+	}
+}

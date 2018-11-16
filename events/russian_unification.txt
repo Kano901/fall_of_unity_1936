@@ -1,0 +1,49 @@
+﻿add_namespace = russia_news
+
+news_event = {
+	id = russia_news.1
+	title = russia_news.1.t
+	desc = russia_news.1.d
+	picture = GFX_news_event_polish_army
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_news.1.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = russia_news.1.b
+		trigger = { TAG = SOV }
+	}
+}
+
+news_event = {
+	id = russia_news.2
+	title = russia_news.2.t
+	desc = russia_news.2.d
+	picture = GFX_news_event_polish_army
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_news.2.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+			}
+		}
+	}
+	option = {
+		name = russia_news.2.b
+		trigger = { TAG = RUS }
+	}
+}

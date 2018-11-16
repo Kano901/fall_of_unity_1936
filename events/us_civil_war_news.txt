@@ -1,0 +1,49 @@
+add_namespace = uscivilwar_news
+
+news_event = {
+	id = uscivilwar_news.1
+	title = uscivilwar_news.1.t
+	desc = uscivilwar_news.1.d
+	picture = GFX_news_event_polish_army
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # USA
+		name = uscivilwar_news.1.a
+		trigger = { TAG = USA }
+	}
+	option = { #Everyone Else
+		name = uscivilwar_news.1.b
+		trigger = {
+			NOT = {
+				TAG = USA
+			}
+		}
+	}
+}
+
+news_event = {
+	id = uscivilwar_news.2
+	title = uscivilwar_news.2.t
+	desc = uscivilwar_news.2.d
+	picture = GFX_news_event_polish_army
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # USA
+		name = uscivilwar_news.2.a
+		trigger = { TAG = USA }
+	}
+	option = { #Everyone Else
+		name = uscivilwar_news.2.b
+		trigger = {
+			NOT = {
+				TAG = USA
+			}
+		}
+	}
+}

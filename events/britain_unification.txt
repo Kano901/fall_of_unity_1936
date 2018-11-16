@@ -1,0 +1,33 @@
+﻿add_namespace = britain_unity_news
+
+news_event = {
+	id = britain_unity_news.1
+	title = britain_unity_news.1.t
+	desc = britain_unity_news.1.d
+	picture = GFX_news_event_polish_army
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain_unity_news.1.a
+		trigger = {
+			NOT = {
+				TAG = NTH
+				TAG = ENG
+				TAG = NSC
+				TAG = SCO
+				TAG = WAL
+			}
+		}
+	}
+	option = {
+		name = romania_unity_news.1.b
+		trigger = { TAG = ENG }
+		trigger = { TAG = SCO }
+		trigger = { TAG = NSC }
+		trigger = { TAG = NTH }
+		trigger = { TAG = WAL }
+	}
+}
