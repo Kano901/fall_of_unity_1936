@@ -1,0 +1,52 @@
+﻿capital = 407 #Uralsk
+
+oob = "URL_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	mass_assault = 1
+}
+
+set_politics = {
+
+	parties = {
+		neutrality = { 
+			popularity = 10
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 90
+		}
+	}
+	ruling_party = communism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Mikhail Velikanov"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_2.dds"
+	expire = "1953.3.1"
+	ideology = leninism
+	traits = {
+		
+	}
+}
+
+
+
+

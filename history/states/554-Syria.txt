@@ -1,0 +1,28 @@
+
+state={
+	id=554
+	name="STATE_554"
+	manpower = 547797
+	
+	state_category = city
+
+	history={
+		owner = MAS
+		victory_points = {
+			4111 3 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			industrial_complex = 2
+		}
+		add_core_of = SYR
+		add_core_of = MAS
+
+	}
+
+
+	provinces={
+		1074 4111 4486 4550 7184 
+	}
+}

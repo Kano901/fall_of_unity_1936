@@ -1,0 +1,24 @@
+
+state={
+	id=783
+	name="STATE_783"
+
+	history={
+		owner = BAW
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+		add_core_of = BAW
+
+	}
+
+	provinces={
+		694 3530 3679 3692 6542 6568 6712 6934 11640 13126 
+	}
+	manpower=2312462
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

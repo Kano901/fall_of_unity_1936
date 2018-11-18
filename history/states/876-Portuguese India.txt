@@ -1,0 +1,21 @@
+state={
+	id=876
+	name="STATE_876"
+	
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = RAJ
+
+	}
+	
+	provinces={
+		4291 4395 12208 
+	}
+	manpower=142000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

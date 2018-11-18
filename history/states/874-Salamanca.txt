@@ -1,0 +1,23 @@
+state={
+	id=874
+	name="STATE_874"
+	
+	history={
+		owner = NSP
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = NSP
+		add_core_of = SPR
+		add_core_of = AFI
+
+	}
+	
+	provinces={
+		794 874 3874 6867 
+	}
+	manpower=125000
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

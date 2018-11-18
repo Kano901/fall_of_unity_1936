@@ -1,0 +1,72 @@
+﻿capital = 16
+
+oob = "FRA_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1			
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	early_submarine = 1
+	early_heavy_cruiser = 1
+	gwtank = 1
+	trench_warfare = 1
+}
+
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = BRG
+        autonomous_state = autonomy_dominion
+    }
+    else = {
+        puppet = BRG
+    }
+}
+
+
+set_convoys = 5
+
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 24
+		}
+
+		fascism = {
+			popularity = 4
+		}
+		
+		communism = {
+			popularity = 72
+		}
+
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1933.7.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Maurice Thorez"
+	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
+	picture = "gfx/leaders/FRA/portrait_fra_maurice_thorez.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}

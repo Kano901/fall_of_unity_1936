@@ -1,0 +1,21 @@
+state={
+	id=896
+	name="STATE_896"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = USA
+
+	}
+	
+	provinces={
+		1767 1851 7760 10587 
+	}
+	manpower=110000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

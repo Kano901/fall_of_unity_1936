@@ -1,0 +1,31 @@
+
+state={
+	id=579
+	name="STATE_579"
+
+	history={
+		owner = ARR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1684 1
+			
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = SIB
+		add_core_of = ARR
+
+	}
+
+	provinces={
+		1664 1684 1757 3169 3415 4669 4761 7689 7738 7809 8461 9142 10536 12517 12545 
+	}
+	manpower=67484
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

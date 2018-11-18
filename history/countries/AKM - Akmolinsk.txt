@@ -1,0 +1,50 @@
+﻿capital = 590 #Magnitogorsk
+
+oob = "AKM_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	mass_assault = 1
+}
+
+set_politics = {
+
+	parties = {
+		fascism = { 
+			popularity = 0
+		}
+		
+		despotism = {
+			popularity = 100
+		}
+	}
+	
+	ruling_party = despotism
+	last_election = "1931.11.8"
+	election_frequency = 72
+	elections_allowed = no
+
+
+}
+
+create_country_leader = {
+	name = "Andrei Shkuro"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = warlord_state
+	traits = {
+		
+	}
+}
+
+#couldnt find anything else, the commies simply forced everyone else into exile
+
+
+

@@ -1,0 +1,24 @@
+
+state={
+	id=772
+	name="STATE_772"
+
+	history={
+		owner = BAL
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = LIT
+		add_core_of = BAL
+
+	}
+
+	provinces={
+		327 9404 11226 11498 
+	}
+	manpower=143545
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

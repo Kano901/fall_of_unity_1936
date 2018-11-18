@@ -1,0 +1,22 @@
+state={
+	id=778
+	name="STATE_778"
+	
+	history={
+		owner = RHI
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = RHI
+		add_core_of = BEL
+
+	}
+	
+	provinces={
+		3488 
+	}
+	manpower=24563
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

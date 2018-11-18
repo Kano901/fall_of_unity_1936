@@ -1,0 +1,21 @@
+state={
+	id=784
+	name="STATE_784"
+	
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ALG
+
+	}
+	
+	provinces={
+		1958 2049 4903 5035 8061 8077 8088 10731 12711 12842 
+	}
+	manpower=223411
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

@@ -1,0 +1,126 @@
+﻿division_template = {
+	name = "Strelkovaya Diviziya"	
+	division_names_group = MTR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Plemennoy Diviziya"	
+	division_names_group = MTR_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Gornostrelkovaya Diviziya"	
+	division_names_group = MTR_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = { # "I Tribal Unit"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3672
+		division_template = "Plemennoy Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = { # "II Tribal Unit"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3672
+		division_template = "Plemennoy Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = { # "III Tribal Unit"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3672
+		division_template = "Plemennoy Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = { # "III Tribal Unit"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3672
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MTR"
+		}
+		requested_factories = 2
+		progress = 0.86
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "MTR"
+		}
+		requested_factories = 1
+		progress = 0.40
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "MTR"
+		}
+		requested_factories = 1
+		progress = 0.40
+		efficiency = 100
+	}
+}

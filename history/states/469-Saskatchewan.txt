@@ -1,0 +1,23 @@
+
+state={
+	id=469
+	name="STATE_469"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		736 1671 3481 3498 3800 4695 4739 6779 9669 10656 11440 12593 12663 12682 13168 13183 13185 13187 
+	}
+	manpower=865605
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

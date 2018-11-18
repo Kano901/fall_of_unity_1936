@@ -1,0 +1,24 @@
+state={
+	id=849
+	name="STATE_849"
+	
+	impassable = yes
+	
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = OMA
+		add_core_of = SAU
+
+	}
+	
+	provinces={
+		12740 
+	}
+	manpower=6555
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

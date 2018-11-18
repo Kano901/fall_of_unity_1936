@@ -1,0 +1,54 @@
+﻿capital = 579 #Magnitogorsk
+
+oob = "ARR_1936"
+
+add_ideas = {
+	limited_conscription
+}
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	mass_assault = 1
+}
+
+set_politics = {
+
+	parties = {
+		social_democracy = { 
+			popularity = 89
+		}
+		
+		socialism = {
+			popularity = 11
+		}
+	}
+	
+	ruling_party = social_democracy
+	last_election = "1931.11.8"
+	election_frequency = 72
+	elections_allowed = no
+
+
+}
+
+create_country_leader = {
+	name = "Anatoly Pepelyayev"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+	expire = "1964.3.1"
+	ideology = social_democrat
+	traits = {
+		
+	}
+}
+
+#couldnt find anything else, the commies simply forced everyone else into exile
+
+
+

@@ -1,0 +1,23 @@
+state={
+	id=910
+	name="STATE_910"
+	
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = POL
+		add_core_of = BLR
+
+	}
+	
+	provinces={
+		290 347 11247 11301 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category = town
+}

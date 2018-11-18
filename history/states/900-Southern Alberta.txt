@@ -1,0 +1,21 @@
+state={
+	id=900
+	name="STATE_900"
+	
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = CAN
+
+	}
+	
+	provinces={
+		1262 7718 
+	}
+	manpower=140000
+	buildings_max_level_factor=1.000
+	state_category = town
+}

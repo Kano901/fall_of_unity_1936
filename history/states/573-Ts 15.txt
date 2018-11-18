@@ -1,0 +1,27 @@
+
+state={
+	id=573
+	name="STATE_573" # Zlatoust
+	manpower = 766677
+	
+	state_category = rural
+	resources={
+		chromium=23 # was: 32
+	}
+
+	history={
+		owner = MAG
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = MAG
+	}
+
+	provinces={
+		237 278 361 3280 4758 7320 10136 10142 10329 11223 11307 12117 
+	}
+}

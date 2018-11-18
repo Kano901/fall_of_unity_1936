@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Welsh Infantry"		
+	division_names_group = WAL_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0}
+	}
+}
+
+division_template = {
+	name = "People's Militia"		
+	division_names_group = WAL_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0}
+	}
+	
+	priority = 0
+	
+}
+
+
+
+units = {
+	division = { # "1st Welsh Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 377
+		division_template = "Welsh Infantry"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+
+	}
+	division = { # "1st Militia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 377
+		division_template = "People's Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "2nd Militia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 377
+		division_template = "People's Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+}
+
+## STARTING PRODUCTION ##
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "WAL"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 100
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=827
+	name="STATE_827"
+	
+	history={
+		owner = MOL
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+
+		}
+		add_core_of = ROM
+		add_core_of = MOL
+
+	}
+	provinces={
+		6761 11689 
+	}
+	manpower=87665
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,24 @@
+state={
+	id=857
+	name="STATE_857"
+	
+	history={
+		owner = NAV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = OCC
+		add_core_of = FRA
+		add_core_of = NAV
+
+	}
+	
+	provinces={
+		743 
+	}
+	manpower=76000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

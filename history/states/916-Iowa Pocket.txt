@@ -1,0 +1,21 @@
+state={
+	id=916
+	name="STATE_916"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = USA
+
+	}
+	
+	provinces={
+		1831 9910 10478 
+	}
+	manpower=28000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,96 @@
+﻿division_template = {
+	name = "Infantry Division"		
+	division_names_group = SCO_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+
+units = {
+	### Army High Command ###
+	division = {
+		name = "1. Republican Guard"
+		location = 9392
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "1. Edinburgh Rifles"
+		location = 9392
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "1. Militia"
+		location = 6320
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "2. Militia"
+		location = 6320
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "3. Militia"
+		location = 6320
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "4. Militia"
+		location = 6320
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "5. Militia"
+		location = 9392
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "6. Militia"
+		location = 9392
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+}
+
+## STARTING PRODUCTION ##
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SCO"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

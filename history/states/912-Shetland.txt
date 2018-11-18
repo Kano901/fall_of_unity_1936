@@ -1,0 +1,24 @@
+state={
+	id=912
+	name="STATE_912"
+	
+	history = {
+		owner = NOR
+		buildings = {
+			infrastructure = 4
+			6196 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NSC
+		add_core_of = SCO
+		add_core_of = NOR
+	}
+	
+	provinces={
+		6196 
+	}
+	manpower=24000
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

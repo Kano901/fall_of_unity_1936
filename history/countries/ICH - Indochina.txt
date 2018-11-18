@@ -1,0 +1,80 @@
+﻿capital = 671 
+
+oob = "ICH_1936"
+
+set_research_slots = 3
+
+# Starting tech
+# clone of France
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+}
+
+set_politics = {
+
+	parties = {
+		despotism = { 
+			popularity = 52
+		}
+
+		conservatism = {
+			popularity = 13
+		}
+		
+		social_liberalism = {
+			popularity = 10
+		}
+		authoritarian_democracy = {
+			popularity = 20
+		}
+		
+		market_liberalism = {
+			popularity = 5
+		}
+	}
+
+	ruling_party = despotism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no #I dont know if its a authoritarian democracy
+}
+
+
+create_country_leader = {
+	name = "Bao Dai" 
+	desc = ""
+	picture = ".dds"
+	expire = "1965.3.1"
+	ideology = despotic_monarchy
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "" 
+	desc = ""
+	picture = ".dds"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1953.3.1"
+	ideology = conservative
+	traits = {
+		
+	}
+}

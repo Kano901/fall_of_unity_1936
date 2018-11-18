@@ -1,0 +1,26 @@
+state={
+	id=851
+	name="STATE_851"
+	
+	history={
+		owner = GAN
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+		add_core_of = PRC
+		add_core_of = CHI
+		add_core_of = GAN
+		add_core_of = CLA
+
+	}
+	
+	provinces={
+		1778 2028 5057 5076 5100 7511 7971 12327 12596 12820 
+	}
+	manpower=1127621
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

@@ -1,0 +1,72 @@
+﻿division_template = {
+	name = "Piyada Briqadasi"	
+	division_names_group = AZR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Respublika Qvardiyasi"	
+	division_names_group = AZR_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	#Ushtria Shqipëtarë
+	division = { # "Republican Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7661
+		division_template = "Respublika Qvardiyasi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+	division = { # "I Militia" #Understrength until general mobilisation
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7661
+		division_template = "Piyada Briqadasi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+
+	}
+	division = { # "II Militia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7661
+		division_template = "Piyada Briqadasi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+		
+	}
+}

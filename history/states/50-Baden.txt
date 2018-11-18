@@ -1,0 +1,31 @@
+
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		aluminium=6.000
+	}
+
+	history={
+		owner = BAW
+		victory_points = {
+			9517 5 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 5
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = BAW
+
+	}
+
+	provinces={
+		519 3690 6555 6581 9517 9545 9655 11486 11499 
+	}
+	manpower=3986854
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

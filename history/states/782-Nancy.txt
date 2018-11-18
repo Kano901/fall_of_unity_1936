@@ -1,0 +1,26 @@
+state={
+	id=782
+	name="STATE_782"
+	
+	history={
+		owner = ALC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+
+		}
+		add_core_of = FRA
+		add_core_of = ALC
+		add_core_of = BRG
+		add_core_of = OCC
+
+	}
+	
+	provinces={
+		521 11516 
+	}
+	manpower=165432
+	buildings_max_level_factor=1.000
+	state_category = city
+}

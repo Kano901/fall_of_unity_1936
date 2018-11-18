@@ -1,0 +1,22 @@
+
+state={
+	id=891
+	name="STATE_891"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		801 3975 4627 6850 6971 7588 9923 10441 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

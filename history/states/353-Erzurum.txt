@@ -1,0 +1,25 @@
+
+state={
+	id=353
+	name="STATE_353"
+
+	history={
+		owner = KUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = TUR
+		add_core_of = KUR
+
+	}
+
+	provinces={
+		876 9858 9954 10399 11853 11880 13121 
+	}
+	manpower=523537
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

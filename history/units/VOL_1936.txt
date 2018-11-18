@@ -1,0 +1,223 @@
+﻿division_template = {
+	name = "Strelkovaya Diviziya"	
+	division_names_group = VOL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Kazachiy Diviziya"	
+	division_names_group = VOL_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Opelchiniye Diviziya"	
+	division_names_group = VOL_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	priority = 0
+}
+division_template = {
+	name = "Gornostrelkovaya Diviziya"	
+	division_names_group = VOL_MNT_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+        mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = { # "I Krasnodar Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3734
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+
+	}
+	division = { # "II Krasnodar Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3734
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+
+	}
+	division = { # "III Krasnodar Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3734
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+
+	}
+	division = { # "I Volgograd Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3529
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+
+	}
+	division = { # "II Volgograd Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 3529
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+
+	}
+	division = { # "I Krasnodar Cavalry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3734
+		division_template = "Kazachiy Diviziya"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+
+	}
+	division = { # II Krasnodar Cavalry
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3734
+		division_template = "Kazachiy Diviziya"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+
+	}
+	division = { # "I Volgograd Cavalry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3529
+		division_template = "Kazachiy Diviziya"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+
+	}
+	division = { # "I Caucasus Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 717
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+
+	}division = { # "III Caucasus Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11633
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+
+	}division = { # "II Caucasus Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6736
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "VOL"
+		}
+		requested_factories = 3
+		progress = 0.86
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "VOL"
+		}
+		requested_factories = 1
+		progress = 0.40
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "VOL"
+		}
+		requested_factories = 1
+		progress = 0.40
+		efficiency = 100
+	}
+}

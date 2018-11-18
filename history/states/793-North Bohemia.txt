@@ -1,0 +1,22 @@
+state={
+	id=793
+	name="STATE_793"
+	
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = CZE
+
+	}
+	
+	provinces={
+		445 494 3462 9414 
+	}
+	manpower=382881
+	buildings_max_level_factor=1.000
+	state_category = town
+}

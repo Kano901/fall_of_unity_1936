@@ -1,0 +1,21 @@
+state={
+	id=838
+	name="STATE_838"
+	
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = MOZ
+
+	}
+	
+	provinces={
+		2120 2193 5155 5177 5212 8245 12935 
+	}
+	manpower=213677
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,26 @@
+state={
+	id=858
+	name="STATE_858"
+	
+	history={
+		owner = NAV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = SPR
+		add_core_of = NAV
+		add_core_of = NSP
+		add_core_of = AFI
+
+	}
+	
+	provinces={
+		740 3735 6756 
+	}
+	manpower=910000
+	buildings_max_level_factor=1.000
+	state_category = city
+}

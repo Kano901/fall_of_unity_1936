@@ -1,0 +1,25 @@
+state={
+	id=766
+	name="STATE_766"
+
+	history={
+		owner = JUT
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = DEN
+		add_core_of = JUT
+		add_core_of = NOG
+
+	}
+	
+	provinces={
+		332 11251 
+	}
+	manpower=110765
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

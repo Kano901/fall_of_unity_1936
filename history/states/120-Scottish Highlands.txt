@@ -1,0 +1,42 @@
+
+state={
+	id=120
+	name="STATE_120"
+	resources={
+		chromium=1.000
+		tungsten=16.000
+		aluminium=9.000
+	}
+
+	history={
+		owner = NSC
+		victory_points = {
+			11064 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+			11064 = {
+				naval_base = 8
+
+			}
+			6196 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SCO
+		add_core_of = NSC
+
+	}
+
+	provinces={
+		131 284 3159 3178 3373 6046 6062 6104 6205 9075 9090 11064 11161 11266 
+	}
+	manpower=265873
+	buildings_max_level_factor=1.000
+	state_category=town
+}

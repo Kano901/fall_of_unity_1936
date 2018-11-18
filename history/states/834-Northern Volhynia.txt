@@ -1,0 +1,26 @@
+state={
+	id=834
+	name="STATE_834"
+	
+		history={
+		owner = UKR
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = RUS
+		add_core_of = UKR
+		add_core_of = BLR
+		add_core_of = GAL
+		add_core_of = SOV
+		add_core_of = POL
+
+	}
+	
+	provinces={
+		535 3496 6579 9520 11503 
+	}
+	manpower=164221
+	buildings_max_level_factor=1.000
+	state_category = town
+}

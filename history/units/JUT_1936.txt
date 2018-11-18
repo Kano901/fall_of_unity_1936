@@ -1,0 +1,132 @@
+﻿division_template = {
+	name = "Infanteri Division"	# represents first part of enlarged divisions
+	division_names_group = JUT_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   	# Pioneer Bn
+		artillery = { x = 0 y = 1 } 	# Heavy Arty 1x-3x 155mm howitzer battalions
+	}
+}
+division_template = {
+	name = "Binær Division"	# represents second part of enlarged divisions
+	division_names_group = JUT_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group ACs comp + cavalry
+	}
+}
+division_template = {
+	name = "Kavaleri Brigade"
+	division_names_group = DEN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Royal Guard Division"	
+	division_names_group = JUT_INF_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   	
+		artillery = { x = 0 y = 1 } 
+		recon = { x = 0 y = 2 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = { 
+		name =  "1. Royal Guard"
+		location = 6364  # Jutland
+		division_template = "Royal Guard Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = { 
+		name =  "1. Jutlandiske Division"
+		location = 6364  # Jutland
+		division_template = "Infanteri Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division = { 
+		name =  "2. Jutlandiske Division"
+		location = 6364  # Jutland
+		division_template = "Infanteri Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division = { 
+		name =  "1. Shleswig Division"
+		location = 6364  # Shelswig
+		division_template = "Infanteri Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	
+	navy = {				
+		name = "Kongens Flåde"			
+		base = 6364
+		location = 6364  # Jutland			
+		ship = { name = "HMDS Niels Juel" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }
+		ship = { name = "HMDS Peder Skram" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }
+		ship = { name = "HMDS Rota" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }			
+		ship = { name = "HMDS Bellona" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }		
+		ship = { name = "HMDS Flora" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
+		ship = { name = "HMDS Daphne" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
+		ship = { name = "HMDS Dryaden" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
+	}				
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "JUT"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "JUT"
+		}
+		requested_factories = 1
+		progress = 0.88
+		efficiency = 100
+	}
+}

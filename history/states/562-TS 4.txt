@@ -1,0 +1,25 @@
+
+state={
+	id=562
+	name="STATE_562"
+
+	history={
+		owner = FEU
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = FEU
+		add_core_of = SIB
+
+	}
+
+	provinces={
+		1714 1748 1805 1865 4752 4810 4881 7772 7844 10540 10572 10598 10608 10667 11607 12518 12551 12650 12683 12694 
+	}
+	manpower=186961
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
