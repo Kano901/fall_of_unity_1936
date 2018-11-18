@@ -14,7 +14,7 @@ ideas = {
 				}
 			}
 
-			picture = generic_manpower_bonus
+			picture = Great_Patriotic_War
 			
 			modifier = {
 				conscription = 0.03
