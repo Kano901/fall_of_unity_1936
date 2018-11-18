@@ -51,7 +51,7 @@ country_event = {
 			add_ideas = russian_front
 			create_faction = "Russian United Front"
 			RUS = {
-				country_event = { days = 3 id = patrioticwar.3 }
+				country_event = { days = 3 id = patrioticwar.4 }
 			}
 			MUR = {
 				country_event = { days = 3 id = patrioticwar.3 }
@@ -144,6 +144,29 @@ country_event = {
 	}
 	option = { #They stand alone...
 		name = patrioticwar.3.b
+		ai_chance = { factor = 20 }
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = patrioticwar.4
+	title = patrioticwar.4.t
+	desc = patrioticwar.4.d
+	picture = GFX_report_event_soldiers_marching
+	
+	is_triggered_only = yes
+	
+	
+	option = { # For Mother Russia!
+		name = patrioticwar.4.a
+		ai_chance = { factor = 100 }
+		SOV = { add_to_faction = ROOT }
+		add_ideas = russian_front
+		add_ideas = patriotic_war
+	}
+	option = { #They stand alone...
+		name = patrioticwar.4.b
 		ai_chance = { factor = 20 }
 		add_political_power = 50
 	}
