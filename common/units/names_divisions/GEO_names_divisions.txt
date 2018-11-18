@@ -1,0 +1,389 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+GEO_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GEO_GAR_01 }
+
+	fallback_name = "%d. Kartuli Kveiti Brigadis"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Kartuli Kveiti Brigadis" }
+		2 = { "%d. Kartuli Kveiti Brigadis" }
+		3 = { "%d. Kartuli Kveiti Brigadis" }
+		4 = { "%d. Kartuli Kveiti Brigadis" }
+		5 = { "%d. Kartuli Kveiti Brigadis" }
+		6 = { "%d. Kartuli Kveiti Brigadis" }
+		7 = { "%d. Kartuli Kveiti Brigadis" }
+		8 = { "%d. Kartuli Kveiti Brigadis" }
+		9 = { "%d. Kartuli Kveiti Brigadis" }
+		10 = { "%d. Kartuli Kveiti Brigadis" }
+		11 = { "%d. Kartuli Kveiti Brigadis" }
+		12 = { "%d. Kartuli Kveiti Brigadis" }
+		13 = { "%d. Kartuli Kveiti Brigadis" }
+		14 = { "%d. Kartuli Kveiti Brigadis" }
+		15 = { "%d. Kartuli Kveiti Brigadis" }
+		16 = { "%d. Kartuli Kveiti Brigadis" }
+		17 = { "%d. Kartuli Kveiti Brigadis" }
+		18 = { "%d. Kartuli Kveiti Brigadis" }
+		19 = { "%d. Kartuli Kveiti Brigadis" }
+		20 = { "%d. Kartuli Kveiti Brigadis" }
+		21 = { "%d. Kartuli Kveiti Brigadis" }
+		22 = { "%d. Kartuli Kveiti Brigadis" }
+		23 = { "%d. Kartuli Kveiti Brigadis" }
+		24 = { "%d. Kartuli Kveiti Brigadis" }
+		25 = { "%d. Kartuli Kveiti Brigadis" }
+
+	}
+}
+
+GEO_CAV_01 = 
+{
+	name = "Cavalry Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d. Kartuli Kavaleriyskaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Kartuli Kvaluli Brigadis" }
+		2 = { "%d. Kartuli Kvaluli Brigadis" }
+		3 = { "%d. Kartuli Kvaluli Brigadis" }
+		4 = { "%d. Kartuli Kvaluli Brigadis" }
+		5 = { "%d. Kartuli Kvaluli Brigadis" }
+		6 = { "%d. Kartuli Kvaluli Brigadis" }
+		7 = { "%d. Kartuli Kvaluli Brigadis" }
+		8 = { "%d. Kartuli Kvaluli Brigadis" }
+		9 = { "%d. Kartuli Kvaluli Brigadis" }
+		10 = { "%d. Kartuli Kvaluli Brigadis" }
+
+	}
+}
+
+GEO_MOT_01 = 
+{
+	name = "Motorised Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d. Kartuli Saavtomobilo Dartqmebi Brigadis"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		2 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		3 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		4 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		5 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		6 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		7 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		8 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		9 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		10 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		11 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		12 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		13 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		14 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		15 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		16 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		17 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		18 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		19 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		20 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		21 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		22 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		23 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		24 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+		25 = { "%d. Kartuli Saavtomobilo Dartqmebi Brigadis" }
+
+	}
+}
+
+GEO_GEO_01 = 
+{
+	name = "Armored Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d. Kartuli Satanko Brigadis"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Kartuli Satanko Brigadis" }
+		2 = { "%d. Kartuli Satanko Brigadis" }
+		3 = { "%d. Kartuli Satanko Brigadis" }
+		4 = { "%d. Kartuli Satanko Brigadis" }
+		5 = { "%d. Kartuli Satanko Brigadis" }
+		6 = { "%d. Kartuli Satanko Brigadis" }
+		7 = { "%d. Kartuli Satanko Brigadis" }
+		8 = { "%d. Kartuli Satanko Brigadis" }
+		9 = { "%d. Kartuli Satanko Brigadis" }
+		10 = { "%d. Kartuli Satanko Brigadis" }
+
+	}
+}
+
+GEO_MEC_01 = 
+{
+	name = "Mechanized Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d. Kartuli Motorizebuli Brigadis"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Kartuli Motorizebuli Brigadis" }
+		2 = { "%d. Kartuli Motorizebuli Brigadis" }
+		3 = { "%d. Kartuli Motorizebuli Brigadis" }
+		4 = { "%d. Kartuli Motorizebuli Brigadis" }
+		5 = { "%d. Kartuli Motorizebuli Brigadis" }
+		6 = { "%d. Kartuli Motorizebuli Brigadis" }
+		7 = { "%d. Kartuli Motorizebuli Brigadis" }
+		8 = { "%d. Kartuli Motorizebuli Brigadis" }
+		9 = { "%d. Kartuli Motorizebuli Brigadis" }
+		10 = { "%d. Kartuli Motorizebuli Brigadis" }
+		11 = { "%d. Kartuli Motorizebuli Brigadis" }
+		12 = { "%d. Kartuli Motorizebuli Brigadis" }
+		13 = { "%d. Kartuli Motorizebuli Brigadis" }
+		14 = { "%d. Kartuli Motorizebuli Brigadis" }
+		15 = { "%d. Kartuli Motorizebuli Brigadis" }
+		16 = { "%d. Kartuli Motorizebuli Brigadis" }
+		17 = { "%d. Kartuli Motorizebuli Brigadis" }
+		18 = { "%d. Kartuli Motorizebuli Brigadis" }
+		19 = { "%d. Kartuli Motorizebuli Brigadis" }
+		20 = { "%d. Kartuli Motorizebuli Brigadis" }
+		21 = { "%d. Kartuli Motorizebuli Brigadis" }
+		22 = { "%d. Kartuli Motorizebuli Brigadis" }
+		23 = { "%d. Kartuli Motorizebuli Brigadis" }
+		24 = { "%d. Kartuli Motorizebuli Brigadis" }
+		25 = { "%d. Kartuli Motorizebuli Brigadis" }
+
+	}
+}
+
+GEO_GAR_01 = 
+{
+	name = "Garrison Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d. Kartuli Kveiti Brigadis"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Kartuli Militsia Brigadis" }
+		2 = { "%d. Kartuli Militsia Brigadis" }
+		3 = { "%d. Kartuli Militsia Brigadis" }
+		4 = { "%d. Kartuli Militsia Brigadis" }
+		5 = { "%d. Kartuli Militsia Brigadis" }
+		6 = { "%d. Kartuli Militsia Brigadis" }
+		7 = { "%d. Kartuli Militsia Brigadis" }
+		8 = { "%d. Kartuli Militsia Brigadis" }
+		9 = { "%d. Kartuli Militsia Brigadis" }
+		10 = { "%d. Kartuli Militsia Brigadis" }
+		11 = { "%d. Kartuli Militsia Brigadis" }
+		12 = { "%d. Kartuli Militsia Brigadis" }
+		13 = { "%d. Kartuli Militsia Brigadis" }
+		14 = { "%d. Kartuli Militsia Brigadis" }
+		15 = { "%d. Kartuli Militsia Brigadis" }
+		16 = { "%d. Kartuli Militsia Brigadis" }
+		17 = { "%d. Kartuli Militsia Brigadis" }
+		18 = { "%d. Kartuli Militsia Brigadis" }
+		19 = { "%d. Kartuli Militsia Brigadis" }
+		20 = { "%d. Kartuli Militsia Brigadis" }
+		21 = { "%d. Kartuli Militsia Brigadis" }
+		22 = { "%d. Kartuli Militsia Brigadis" }
+		23 = { "%d. Kartuli Militsia Brigadis" }
+		24 = { "%d. Kartuli Militsia Brigadis" }
+		25 = { "%d. Kartuli Militsia Brigadis" }
+
+	}
+}
+
+GEO_MAR_01 = 
+{
+	name = "Marine Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d. Kartuli Brigadis Sazghvao Kveitebi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Kartuli Brigadis Sazghvao Kveitebi" }
+		2 = { "%d. Kartuli Brigadis Sazghvao Kveitebi" }
+		3 = { "%d. Kartuli Brigadis Sazghvao Kveitebi" }
+		4 = { "%d. Kartuli Brigadis Sazghvao Kveitebi" }
+		5 = { "%d. Kartuli Brigadis Sazghvao Kveitebi" }
+		6 = { "%d. Kartuli Brigadis Sazghvao Kveitebi" }
+		7 = { "%d. Kartuli Brigadis Sazghvao Kveitebi" }
+		8 = { "%d. Kartuli Brigadis Sazghvao Kveitebi" }
+		9 = { "%d. Kartuli Brigadis Sazghvao Kveitebi" }
+		10 = { "%d. Kartuli Brigadis Sazghvao Kveitebi" }
+
+	}
+}
+
+GEO_MTN_01 = 
+{
+	name = "Mountain Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d. Kartuli Mtieleb Brigadis"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Kartuli Mtieleb Brigadis" }
+		2 = { "%d. Kartuli Mtieleb Brigadis" }
+		3 = { "%d. Kartuli Mtieleb Brigadis" }
+		4 = { "%d. Kartuli Mtieleb Brigadis" }
+		5 = { "%d. Kartuli Mtieleb Brigadis" }
+		6 = { "%d. Kartuli Mtieleb Brigadis" }
+		7 = { "%d. Kartuli Mtieleb Brigadis" }
+		8 = { "%d. Kartuli Mtieleb Brigadis" }
+		9 = { "%d. Kartuli Mtieleb Brigadis" }
+		10 = { "%d. Kartuli Mtieleb Brigadis" }
+
+	}
+}
+
+GEO_PAR_01 = 
+{
+	name = "Paratrooper Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d. Kartuli Medesante Brigadis"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Kartuli Medesante Brigadis" }
+		2 = { "%d. Kartuli Medesante Brigadis" }
+		3 = { "%d. Kartuli Medesante Brigadis" }
+		4 = { "%d. Kartuli Medesante Brigadis" }
+		5 = { "%d. Kartuli Medesante Brigadis" }
+		6 = { "%d. Kartuli Medesante Brigadis" }
+		7 = { "%d. Kartuli Medesante Brigadis" }
+		8 = { "%d. Kartuli Medesante Brigadis" }
+		9 = { "%d. Kartuli Medesante Brigadis" }
+		10 = { "%d. Kartuli Medesante Brigadis" }
+
+	}
+}

@@ -1,0 +1,567 @@
+ideologies = {
+
+
+	vanguard_communism = {
+		
+		types = {
+		
+			vanguardist = {
+			}
+			stalinism = {
+			}
+			nazbol = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_VANGUARDIST_1"
+			"FACTION_NAME_VANGUARDIST_2"
+		}
+		
+		color = { 100 0 0 }
+		
+		war_impact_on_world_tension = 0.5		
+		faction_impact_on_world_tension = 0.5
+		
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.3
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		
+		ai_neutral = yes
+
+	}
+	
+	marxist_leninist = {
+		
+		types = {
+		
+			marxism = {
+			}
+			
+			trotskyist = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+		}
+		
+		color = { 163 10 10 }
+		
+		war_impact_on_world_tension = 0.5		
+		faction_impact_on_world_tension = 0.5
+		
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.3
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		
+		ai_neutral = yes
+
+	}
+	
+	socialism = {
+		
+		types = {
+		
+			socialist = {
+			}
+			
+			christian_socialism = {
+			}
+			
+			arab_socialism = {
+			}
+			
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALIST_1"
+			"FACTION_NAME_SOCIALIST_2"
+		}
+		
+		color = { 175 50 50 }
+		
+		war_impact_on_world_tension = 0.5		
+		faction_impact_on_world_tension = 0.5
+		
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.3
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		
+		ai_neutral = yes
+
+	}
+	
+	anarchist_communism = {
+		
+		types = {
+		
+			anarchy = {
+			}
+			german_anarchy = {
+			}
+			free_territory = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHIST_1"
+			"FACTION_NAME_ANARCHIST_2"
+		}
+		
+		color = { 235 0 0 }
+		
+		war_impact_on_world_tension = 0.5		
+		faction_impact_on_world_tension = 0.5
+		
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.3
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		
+		ai_neutral = yes
+
+	}
+	
+	social_democracy = {
+		
+		types = {
+		
+			social_democrat = {
+			}
+			
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCDEM_1"
+			"FACTION_NAME_SOCDEM_2"
+		}
+		
+		color = { 120 10 100 }
+		
+		war_impact_on_world_tension = 0.5		
+		faction_impact_on_world_tension = 0.5
+		
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.3
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		
+		ai_neutral = yes
+
+	}
+	
+	social_liberalism = {
+		
+		types = {
+		
+			social_liberal = {
+			}
+			
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCLIB_1"
+			"FACTION_NAME_SOCLIB_2"
+		}
+		
+		color = { 200 144 5 }
+		
+		war_impact_on_world_tension = 0.5		
+		faction_impact_on_world_tension = 0.5
+		
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.3
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		
+		ai_neutral = yes
+
+	}
+	
+	market_liberalism = {
+		
+		types = {
+		
+			market_liberal = {
+			}
+			
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_MARLIB_1"
+			"FACTION_NAME_MARLIB_2"
+		}
+		
+		color = { 255 246 0 }
+		
+		war_impact_on_world_tension = 0.5		
+		faction_impact_on_world_tension = 0.5
+		
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.3
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		
+		ai_neutral = yes
+
+	}
+	
+	conservatism = {
+	
+		types = {
+			
+			conservative = {
+			}
+			
+			islamic_republicanism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CONSERVATIVE_1"
+			"FACTION_NAME_CONSERVATIVE_2"
+		}
+		
+		color = { 3 61 119 }
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.30
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		
+		ai_neutral = yes
+	}
+	
+	national_socialism = {
+		
+		types = {
+		
+			nazism = {
+			}
+			national_kemalism = {
+			}
+			strasserism = {
+			}
+			horthyism = {
+			}
+			japanese_nationalism = {
+			}
+			
+			
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NATSOC_1"
+			"FACTION_NAME_NATSOC_2"
+		}
+		
+		color = { 0 0 0 }
+		
+		war_impact_on_world_tension = 0.5		
+		faction_impact_on_world_tension = 0.5
+		
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.3
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		
+		ai_neutral = yes
+
+	}
+
+	fascism = {
+	
+		types = {
+		
+			italian_fascism = {
+			}
+			
+			prussian_nationalism = {
+			}
+			
+			russian_fascism = {
+			}
+			
+			american_revolutionism = {
+			}
+			
+			falangism = {
+			}
+			
+			rexism = {
+			}
+			
+			british_nationalism = {
+			}
+			
+			austro_fascism = {
+			}
+			
+			norwegian_revivalism = {
+			}
+			
+			neo_swedism = {
+			}
+			
+			romanian_legionarism = {
+			}
+			
+			islamic_nationalism = {
+			}
+			
+			clericalism = {
+			}
+			
+			belarusian_revivalism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+		}
+		
+		color = { 109 60 8 }
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.3
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		
+		ai_neutral = yes
+
+	}
+	
+	despotism = {
+	
+		types = {
+			
+			absolute_monarchism = {
+			}
+			
+			military_dictatorship = {
+			}
+			
+			warlord_state = {
+			}
+			
+			theocracy = {
+			}
+			
+			authoritarian_conservatism = {
+			}
+			
+			absolute_dictatorship = {
+			}
+			
+			
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_DESPOT_1"
+			"FACTION_NAME_DESPOT_2"
+		}
+		
+		color = { 33 33 33 }
+		
+		
+		war_impact_on_world_tension = 0.5		#no major danger
+		faction_impact_on_world_tension = 0.5
+		
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.3
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+		
+		ai_neutral = yes
+	}
+	
+	authoritarian_democracy = {
+		
+		types = {
+		
+			auth_dem = {
+			}
+			
+			auth_monarchy = {
+			}
+			
+			corporatism = {
+			}
+			
+			plutocracy = {
+			}
+			
+			auth_warlord = {
+			}
+			
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHDEM_1"
+			"FACTION_NAME_AUTHDEM_2"
+		}
+		
+		color = { 75 75 75 }
+		
+		war_impact_on_world_tension = 0.5		
+		faction_impact_on_world_tension = 0.5
+		
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.3
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		
+		ai_neutral = yes
+
+	}
+
+}

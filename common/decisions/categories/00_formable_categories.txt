@@ -1,0 +1,39 @@
+#formable_nations = {
+#
+#	icon = generic_formable_nations
+#
+#	allowed = {
+#		has_dlc = "Waking the Tiger"
+#	}
+#}
+
+form_greater_german_reich_category = {
+
+	icon = generic_formable_nations
+
+
+}
+
+form_greater_soviet_category = {
+
+	icon = generic_formable_nations
+	
+}
+
+form_greater_russia_category = {
+
+	icon = generic_formable_nations
+
+}
+
+form_romania_category = {
+
+	icon = generic_formable_nations
+
+}
+
+form_britain_category = {
+
+	icon = generic_formable_nations
+	
+}
