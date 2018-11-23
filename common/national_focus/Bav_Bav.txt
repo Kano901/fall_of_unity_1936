@@ -1,0 +1,1590 @@
+focus_tree = { 
+id = Bav
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = BAV
+} 
+} 
+#Focus for Begin Modernisation
+focus = { 
+id = Bav_beginmodernisation
+icon = GFX_focus_chi_army_reform
+x = 30
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_getridofrhmandthesa } 
+prerequisite = { focus = Bav_inviteprussianofficers } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand the SS
+focus = { 
+id = Bav_expandthess
+icon = GFX_expandthess
+x = 37
+y = 0
+cost = 8
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Schleich's Plan
+focus = { 
+id = Bav_schleichsplan
+icon = GFX_goal_generic_air_fighter2
+x = 42
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_createtheluftwaffe } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Create The Luftwaffe
+focus = { 
+id = Bav_createtheluftwaffe
+icon = GFX_goal_unknown
+x = 44
+y = 0
+cost = 8
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Sicherheitsdienst des Reichsführers SS
+focus = { 
+id = Bav_sicherheitsdienstdesreichsfhrersss
+icon = GFX_goal_unknown
+x = 38
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_givehimmlercommandoverthepolice } 
+prerequisite = { focus = Bav_combinethessandgestapo } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Sicherheitspolizei
+focus = { 
+id = Bav_sicherheitspolizei
+icon = GFX_goal_unknown
+x = 37
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_combinethessandgestapo } 
+prerequisite = { focus = Bav_givehimmlercommandoverthepolice } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Ahnenerbe
+focus = { 
+id = Bav_ahnenerbe
+icon = GFX_ahnenerbe
+x = 39
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_establishlebensbornev } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Establish Lebensborn e.V
+focus = { 
+id = Bav_establishlebensbornev
+icon = GFX_establishlebensbornev
+x = 39
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_expandthess } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Give Himmler command over the Police
+focus = { 
+id = Bav_givehimmlercommandoverthepolice
+icon = GFX_goal_unknown
+x = 38
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_expandthess } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Combine the SS and Gestapo
+focus = { 
+id = Bav_combinethessandgestapo
+icon = GFX_goal_unknown
+x = 37
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_expandthess } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Formation of the Waffen-SS
+focus = { 
+id = Bav_formationofthewaffenss
+icon = GFX_goal_unknown
+x = 36
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_expandthess } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Give the Wewelsburg to Himmler
+focus = { 
+id = Bav_givethewewelsburgtohimmler
+icon = GFX_goal_unknown
+x = 35
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_expandthess } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Political officers of the SS
+focus = { 
+id = Bav_politicalofficersofthess
+icon = GFX_goal_unknown
+x = 34
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_beginmodernisation } 
+prerequisite = { focus = Bav_expandthess } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fallschirmjäger
+focus = { 
+id = Bav_fallschirmjger
+icon = GFX_focus_generic_paratrooper
+x = 33
+y = 4
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_enhanceourtrainingprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for National Socialist Education
+focus = { 
+id = Bav_nationalsocialisteducation
+icon = GFX_nationalsocialisteducation
+x = 9
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_volksgemeinschaftandgleichschaltung } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Integrate the Sudetenland
+focus = { 
+id = Bav_integratethesudetenland
+icon = GFX_goal_unknown
+x = 2
+y = 7
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_theyaccept focus = Bav_stabilizethesudetenland } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Stabilize the Sudetenland
+focus = { 
+id = Bav_stabilizethesudetenland
+icon = GFX_goal_generic_neutrality_focus
+x = 3
+y = 6
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_installheydrichasprotektor } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Install Heydrich as Protektor
+focus = { 
+id = Bav_installheydrichasprotektor
+icon = GFX_focus_generic_military_mission
+x = 3
+y = 5
+cost = 1
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_assassinatehenlein } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Assassinate Henlein
+focus = { 
+id = Bav_assassinatehenlein
+icon = GFX_assassinatehenlein
+x = 3
+y = 4
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_theyrefuse } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for They Refuse
+focus = { 
+id = Bav_theyrefuse
+icon = GFX_goal_generic_dangerous_deal
+x = 3
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_thesudetenlandquestion } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for They Accept
+focus = { 
+id = Bav_theyaccept
+icon = GFX_goal_tripartite_pact
+x = 1
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_thesudetenlandquestion } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Sudetenland Question
+focus = { 
+id = Bav_thesudetenlandquestion
+icon = GFX_goal_molotov_ribbentrop_pact
+x = 2
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_unificationofthefatherland } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Volksgemeinschaft and Gleichschaltung
+focus = { 
+id = Bav_volksgemeinschaftandgleichschaltung
+icon = GFX_volksgemeinschaftandgleichschaltung
+x = 9
+y = 2
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_internalpolitics } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Crackdown on Jews
+focus = { 
+id = Bav_crackdownonjews
+icon = GFX_goal_continuous_suppression
+x = 6
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_nuremberglaws } 
+prerequisite = { focus = Bav_establishconcentrationcamps } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Establish Concentration Camps
+focus = { 
+id = Bav_establishconcentrationcamps
+icon = GFX_goal_generic_secret_weapon
+x = 6
+y = 2
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_internalpolitics } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Nuremberg Laws
+focus = { 
+id = Bav_nuremberglaws
+icon = GFX_focus_CZE_german_puppet
+x = 7
+y = 2
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_internalpolitics } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Internal Politics
+focus = { 
+id = Bav_internalpolitics
+icon = GFX_internalpolitics
+x = 7
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_consolidatethereich } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Unification of the Fatherland
+focus = { 
+id = Bav_unificationofthefatherland
+icon = GFX_unificationofthefatherland
+x = 3
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_consolidatethereich } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Consolidate the Reich
+focus = { 
+id = Bav_consolidatethereich
+icon = GFX_consolidatethereich
+x = 5
+y = 0
+cost = 8
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Motorize the Army
+focus = { 
+id = Bav_motorizethearmy
+icon = GFX_goal_generic_army_motorized
+x = 31
+y = 5
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_blitzkrieg } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Improve Army Doctrines
+focus = { 
+id = Bav_improvearmydoctrines
+icon = GFX_goal_generic_army_doctrines
+x = 30
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_beginmodernisation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Develop Panzer Models
+focus = { 
+id = Bav_developpanzermodels
+icon = GFX_goal_generic_army_tanks
+x = 31
+y = 6
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_motorizethearmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Equiment Effort
+focus = { 
+id = Bav_equimenteffort
+icon = GFX_goal_generic_small_arms
+x = 28
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_beginmodernisation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Stellungskrieg
+focus = { 
+id = Bav_stellungskrieg
+icon = GFX_goal_generic_position_armies
+x = 29
+y = 4
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_improvearmydoctrines } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Investing in Support Equiment
+focus = { 
+id = Bav_investinginsupportequiment
+icon = GFX_goal_generic_build_tank
+x = 28
+y = 4
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_equimenteffort } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Blitzkrieg
+focus = { 
+id = Bav_blitzkrieg
+icon = GFX_goal_unknown
+x = 31
+y = 4
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_improvearmydoctrines } 
+mutually_exclusive = { focus = Bav_stellungskrieg } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reichssicherheitshauptamt
+focus = { 
+id = Bav_reichssicherheitshauptamt
+icon = GFX_goal_unknown
+x = 38
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_sicherheitspolizei } 
+prerequisite = { focus = Bav_sicherheitsdienstdesreichsfhrersss } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Defend the Fatherland
+focus = { 
+id = Bav_defendthefatherland
+icon = GFX_goal_generic_defence
+x = 29
+y = 5
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_stellungskrieg } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Sons of War
+focus = { 
+id = Bav_sonsofwar
+icon = GFX_focus_generic_little_entente
+x = 29
+y = 6
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_defendthefatherland } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Gebirgsjäger
+focus = { 
+id = Bav_gebirgsjger
+icon = GFX_goal_generic_special_forces
+x = 32
+y = 4
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_enhanceourtrainingprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Enhance our Training Program
+focus = { 
+id = Bav_enhanceourtrainingprogram
+icon = GFX_goal_unknown
+x = 32
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_beginmodernisation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Modern Artillery
+focus = { 
+id = Bav_modernartillery
+icon = GFX_goal_generic_army_artillery2
+x = 27
+y = 4
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_equimenteffort } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pressure Baden-Württemberg
+focus = { 
+id = Bav_pressurebadenwrttemberg
+icon = GFX_focus_generic_strike_at_democracy1
+x = 4
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_unificationofthefatherland } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Send in NSDAP "Diplomats"
+focus = { 
+id = Bav_sendinnsdapdiplomats
+icon = GFX_goal_unknown
+x = 4
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_pressurebadenwrttemberg } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Anschluss of Baden-Württemberg
+focus = { 
+id = Bav_anschlussofbadenwrttemberg
+icon = GFX_goal_generic_forceful_treaty
+x = 4
+y = 4
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_sendinnsdapdiplomats } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Northern Conquest
+focus = { 
+id = Bav_thenorthernconquest
+icon = GFX_thenorthernconquest
+x = 4
+y = 8
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_anschlussofbadenwrttemberg } 
+prerequisite = { focus = Bav_integratethesudetenland } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Crusade against Communism
+focus = { 
+id = Bav_crusadeagainstcommunism
+icon = GFX_focus_ger_bulwark_against_bolshevism
+x = 7
+y = 4
+cost = 8
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Burn Socialist Literature
+focus = { 
+id = Bav_burnsocialistliterature
+icon = GFX_goal_generic_war_with_comintern
+x = 6
+y = 5
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_crusadeagainstcommunism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pacify the Socialist
+focus = { 
+id = Bav_pacifythesocialist
+icon = GFX_pacifythesocialist
+x = 7
+y = 5
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_crusadeagainstcommunism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Dismantle the Communes
+focus = { 
+id = Bav_dismantlethecommunes
+icon = GFX_goal_anti_comintern_pact
+x = 8
+y = 5
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_crusadeagainstcommunism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Attack Brandenburg
+focus = { 
+id = Bav_attackbrandenburg
+icon = GFX_attackbrandenburg
+x = 10
+y = 4
+cost = 8
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fate of the Monarchy
+focus = { 
+id = Bav_fateofthemonarchy
+icon = GFX_focus_ger_revive_kaiserreich
+x = 10
+y = 5
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_attackbrandenburg } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Crush the Monarchist
+focus = { 
+id = Bav_crushthemonarchist
+icon = GFX_focus_rom_abdicate
+x = 10
+y = 6
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_fateofthemonarchy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Dismantle the Confederation
+focus = { 
+id = Bav_dismantletheconfederation
+icon = GFX_focus_rom_parties_end
+x = 6
+y = 6
+cost = 8
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Root out Capitalism
+focus = { 
+id = Bav_rootoutcapitalism
+icon = GFX_rootoutcapitalism
+x = 6
+y = 7
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_dismantletheconfederation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Deal with Prussia
+focus = { 
+id = Bav_dealwithprussia
+icon = GFX_focus_ger_oppose_hitler
+x = 7
+y = 6
+cost = 8
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Destroy Koch's Regime
+focus = { 
+id = Bav_destroykochsregime
+icon = GFX_goal_unknown
+x = 7
+y = 7
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_dealwithprussia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Strike Silesia
+focus = { 
+id = Bav_strikesilesia
+icon = GFX_goal_unknown
+x = 8
+y = 6
+cost = 8
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expel Polish Citizens
+focus = { 
+id = Bav_expelpolishcitizens
+icon = GFX_goal_unknown
+x = 8
+y = 7
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_strikesilesia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for NS-Volkswohlfahrt
+focus = { 
+id = Bav_nsvolkswohlfahrt
+icon = GFX_nsvolkswohlfahrt
+x = 10
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_volksgemeinschaftandgleichschaltung } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Deutsche Frauenwerke
+focus = { 
+id = Bav_deutschefrauenwerke
+icon = GFX_deutschefrauenwerke
+x = 11
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_volksgemeinschaftandgleichschaltung } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Hitlerjugend
+focus = { 
+id = Bav_hitlerjugend
+icon = GFX_goal_unknown
+x = 12
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_volksgemeinschaftandgleichschaltung } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bund Deutscher Mädel
+focus = { 
+id = Bav_bunddeutschermdel
+icon = GFX_goal_unknown
+x = 12
+y = 4
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_hitlerjugend } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Volksempfänger
+focus = { 
+id = Bav_volksempfnger
+icon = GFX_goal_generic_radar
+x = 13
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_volksgemeinschaftandgleichschaltung } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Kraft durch Freude
+focus = { 
+id = Bav_kraftdurchfreude
+icon = GFX_kraftdurchfreude
+x = 14
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_volksgemeinschaftandgleichschaltung } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Found Volkswagen
+focus = { 
+id = Bav_foundvolkswagen
+icon = GFX_foundvolkswagen
+x = 15
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_volksgemeinschaftandgleichschaltung } 
+prerequisite = { focus = Bav_depressionrecovery } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Deutsche Arbeitsfront
+focus = { 
+id = Bav_deutschearbeitsfront
+icon = GFX_goal_generic_construction2
+x = 16
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_volksgemeinschaftandgleichschaltung } 
+prerequisite = { focus = Bav_depressionrecovery } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Depression Recovery
+focus = { 
+id = Bav_depressionrecovery
+icon = GFX_depressionrecovery
+x = 20
+y = 0
+cost = 8
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Side with the Autarks
+focus = { 
+id = Bav_sidewiththeautarks
+icon = GFX_goal_generic_production2
+x = 17
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_depressionrecovery } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Side with the Technocrats
+focus = { 
+id = Bav_sidewiththetechnocrats
+icon = GFX_goal_tfv_generic_tech_sharing
+x = 18
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_depressionrecovery } 
+mutually_exclusive = { focus = Bav_sidewiththeautarks } 
+mutually_exclusive = { focus = Bav_ } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Göring's Four Year Plan
+focus = { 
+id = Bav_gringsfouryearplan
+icon = GFX_focus_generic_treaty
+x = 20
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_depressionrecovery } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for First Year
+focus = { 
+id = Bav_firstyear
+icon = GFX_goal_generic_construction2
+x = 20
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_gringsfouryearplan } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Mechanisation of Agricultur
+focus = { 
+id = Bav_mechanisationofagricultur
+icon = GFX_goal_generic_construct_civ_factory
+x = 19
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_firstyear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rural Electrification
+focus = { 
+id = Bav_ruralelectrification
+icon = GFX_goal_unknown
+x = 21
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_firstyear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Second Year
+focus = { 
+id = Bav_secondyear
+icon = GFX_goal_generic_construct_civilian
+x = 20
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_firstyear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for New Urban Districts
+focus = { 
+id = Bav_newurbandistricts
+icon = GFX_goal_generic_construct_civilian
+x = 19
+y = 4
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_secondyear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Urban Development
+focus = { 
+id = Bav_urbandevelopment
+icon = GFX_goal_generic_construct_infrastructure
+x = 21
+y = 4
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_secondyear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Third Year
+focus = { 
+id = Bav_thirdyear
+icon = GFX_goal_generic_production
+x = 20
+y = 4
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_secondyear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand Military Industry
+focus = { 
+id = Bav_expandmilitaryindustry
+icon = GFX_goal_generic_construct_mil_factory
+x = 19
+y = 5
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_thirdyear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Update our Small Arms Production
+focus = { 
+id = Bav_updateoursmallarmsproduction
+icon = GFX_focus_secret_rearmament
+x = 21
+y = 5
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_thirdyear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fourth Year
+focus = { 
+id = Bav_fourthyear
+icon = GFX_goal_generic_construction2
+x = 20
+y = 5
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_thirdyear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Open Banks
+focus = { 
+id = Bav_openbanks
+icon = GFX_focus_generic_self_management
+x = 19
+y = 6
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_fourthyear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Währungsreform
+focus = { 
+id = Bav_whrungsreform
+icon = GFX_goal_unknown
+x = 21
+y = 6
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_fourthyear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Autarky
+focus = { 
+id = Bav_autarky
+icon = GFX_focus_ger_reichskommisariats
+x = 24
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_depressionrecovery } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Open Reichswerke Hermann Göring
+focus = { 
+id = Bav_openreichswerkehermanngring
+icon = GFX_goal_generic_construct_civ_factory
+x = 23
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_autarky } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bavarian War Economy
+focus = { 
+id = Bav_bavarianwareconomy
+icon = GFX_goal_generic_construct_mil_factory
+x = 23
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_openreichswerkehermanngring } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Coal Liquidization
+focus = { 
+id = Bav_coalliquidization
+icon = GFX_goal_generic_oil_refinery
+x = 24
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_autarky } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Synthetic Rubber
+focus = { 
+id = Bav_syntheticrubber
+icon = GFX_focus_generic_rubber
+x = 24
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_coalliquidization } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Invest in Schools
+focus = { 
+id = Bav_investinschools
+icon = GFX_focus_generic_military_academy
+x = 25
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_autarky } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fund Universities
+focus = { 
+id = Bav_funduniversities
+icon = GFX_focus_research2
+x = 25
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_investinschools } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bayerische Reichsautobahn
+focus = { 
+id = Bav_bayerischereichsautobahn
+icon = GFX_goal_generic_construct_infrastructure
+x = 26
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_autarky } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for KdF-Wagen
+focus = { 
+id = Bav_kdfwagen
+icon = GFX_goal_generic_construct_civ_factory
+x = 26
+y = 3
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_bayerischereichsautobahn } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reform our Army
+focus = { 
+id = Bav_reformourarmy
+icon = GFX_goal_rhineland
+x = 30
+y = 0
+cost = 8
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Invite Prussian Officers
+focus = { 
+id = Bav_inviteprussianofficers
+icon = GFX_focus_ger_return_of_the_kaiser
+x = 29
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_reformourarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Create a General Staff
+focus = { 
+id = Bav_createageneralstaff
+icon = GFX_focus_generic_military_mission
+x = 30
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_reformourarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Get Rid of Röhm and The SA
+focus = { 
+id = Bav_getridofrhmandthesa
+icon = GFX_getridofrhmandthesa
+x = 31
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_reformourarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for New Fighters
+focus = { 
+id = Bav_newfighters
+icon = GFX_goal_generic_air_fighter2
+x = 41
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_schleichsplan } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Lufthoheit
+focus = { 
+id = Bav_lufthoheit
+icon = GFX_goal_generic_air_doctrine
+x = 42
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_schleichsplan } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Heavy Fighter Program
+focus = { 
+id = Bav_heavyfighterprogram
+icon = GFX_goal_generic_air_fighter2
+x = 43
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_schleichsplan } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Göring's Plan
+focus = { 
+id = Bav_gringsplan
+icon = GFX_goal_generic_air_bomber
+x = 46
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_createtheluftwaffe } 
+mutually_exclusive = { focus = Bav_schleichsplan } 
+mutually_exclusive = { focus = Bav_ } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for New Bombers
+focus = { 
+id = Bav_newbombers
+icon = GFX_goal_generic_air_bomber
+x = 45
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_gringsplan } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fire Bombings
+focus = { 
+id = Bav_firebombings
+icon = GFX_goal_unknown
+x = 46
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_gringsplan } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for CAS Effort
+focus = { 
+id = Bav_caseffort
+icon = GFX_goal_generic_CAS
+x = 47
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_gringsplan } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fliegerschule
+focus = { 
+id = Bav_fliegerschule
+icon = GFX_focus_generic_military_academy
+x = 44
+y = 1
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_createtheluftwaffe } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Aerial Doctrine
+focus = { 
+id = Bav_aerialdoctrine
+icon = GFX_goal_generic_air_doctrine
+x = 44
+y = 2
+cost = 8
+available_if_capitulated = yes 
+prerequisite = { focus = Bav_fliegerschule } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

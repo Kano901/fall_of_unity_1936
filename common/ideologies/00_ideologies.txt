@@ -347,6 +347,10 @@ ideologies = {
 			}
 			japanese_nationalism = {
 			}
+			russian_nazism = {
+			}
+			banderism = {
+			}
 			
 			
 			
@@ -427,6 +431,9 @@ ideologies = {
 			
 			belarusian_revivalism = {
 			}
+			
+			ukrainian_nationalism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -488,7 +495,7 @@ ideologies = {
 			"FACTION_NAME_DESPOT_2"
 		}
 		
-		color = { 33 33 33 }
+		color = { 43 43 43 }
 		
 		
 		war_impact_on_world_tension = 0.5		#no major danger
@@ -539,7 +546,7 @@ ideologies = {
 			"FACTION_NAME_AUTHDEM_2"
 		}
 		
-		color = { 75 75 75 }
+		color = { 85 85 85 }
 		
 		war_impact_on_world_tension = 0.5		
 		faction_impact_on_world_tension = 0.5

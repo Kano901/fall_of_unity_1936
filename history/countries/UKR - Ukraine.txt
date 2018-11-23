@@ -16,19 +16,27 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 15
+		despotism = { 
+			popularity = 18
 		}
 
 		fascism = {
-			popularity = 70
+			popularity = 26
 		}
 		
-		communism = {
-			popularity = 15
+		anarchist_communism = {
+			popularity = 3
+		}
+		
+		conservatism = {
+			popularity = 9
+		}
+		
+		national_socialism = {
+			popularity = 44
 		}
 	}
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -39,7 +47,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = conservative
 	traits = {
 		
 	}
@@ -57,11 +65,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Andriy Melnyk"
+	desc = ""
+	picture = "gfx/leaders/UKR/Portrait_Ukraine_Stepan_Bandera.dds"
+	expire = "1965.1.1"
+	ideology = ukrainian_nationalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
 	name = "Stepan Bandera"
 	desc = ""
 	picture = "gfx/leaders/UKR/Portrait_Ukraine_Stepan_Bandera.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = banderism
 	traits = {
 		
 	}

@@ -36,6 +36,10 @@ set_technology = {
 	fleet_in_being = 1
 }
 
+add_ideas = {
+	defence_of_russia
+}
+
 set_politics = {
 
 	parties = {

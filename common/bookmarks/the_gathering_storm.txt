@@ -90,6 +90,7 @@ bookmarks = {
 			ideas = {
 				trotskyite_plot
 				home_of_revolution
+				defence_of_russia
 			}
 			focuses = {
 				SOV_great_purge

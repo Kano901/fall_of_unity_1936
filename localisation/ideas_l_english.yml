@@ -2531,5 +2531,7 @@
  ####
  patriotic_war:0 "Great Patriotic War"
  russian_front:0 "Russian United Front"
+ defence_of_russia:0 "Defence of the Motherland"
+ defence_of_russia_desc:0 "Russia shall stand strong, as long as her sons stand alongsider her! Our valiant and brave soldiers shall defend the Motherland! For [Root.GetNameDef]!"
 
 

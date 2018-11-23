@@ -1,5 +1,27 @@
 ideas = {
 	country = {
+		defence_of_russia = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = yes # Added via event
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = national_socialism
+				}
+			}
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				conscription = 0.015
+				army_core_defence_factor = 0.05
+			}
+		}
+		
 		patriotic_war = {
 		
 			removal_cost = -1
@@ -14,7 +36,7 @@ ideas = {
 				}
 			}
 
-			picture = Great_Patriotic_War
+			picture = great_patriotic_war.dds
 			
 			modifier = {
 				conscription = 0.03
@@ -24,6 +46,7 @@ ideas = {
 				surrender_limit = 0.40
 			}
 		}
+		
 		
 		russian_front = {
 		

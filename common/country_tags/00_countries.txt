@@ -191,4 +191,6 @@ PSK = "countries/Pskov.txt"
 TAT = "countries/Tatarstan.txt"
 CSK = "countries/Cossackia.txt"
 PRM = "countries/Perm.txt"
+KIR = "countries/Kirov.txt"
+UFA = "countries/Ufa.txt"
 

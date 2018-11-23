@@ -843,6 +843,10 @@
  ILL_fascism_DEF:0 "Illyria"
  ILL_fascism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ CSK_national_socialism:0 "United Cossack State"
+ CSK_national_socialism_DEF:0 "the United Cossack State"
+ CSK_national_socialism_ADJ:0 "Cossack"
+ 
  PSK_fascism:0 "Pskov"
  PSK_fascism_DEF:0 "Pskov"
  PSK_fascism_ADJ:0 "Pskov"
@@ -1565,6 +1569,10 @@
  ILL_despotism_DEF:0 "the Illyrian Kingdom"
  ILL_despotism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ CSK_despotism:0 "Cossack Republic"
+ CSK_despotism_DEF:0 "the Cossack Republic"
+ CSK_despotism_ADJ:0 "Cossack"
+ 
  PSK_despotism:0 "Pskov"
  PSK_despotism_DEF:0 "Pskov"
  PSK_despotism_ADJ:0 "Pskov"
@@ -2287,6 +2295,10 @@
  ILL_authoritarian_democracy_DEF:0 "the Illyrian Kingdom"
  ILL_authoritarian_democracy_ADJ:0 "Illyrian"
  #Russian Warlords#
+ CSK_authoritarian_democracy:0 "Cossack Republic"
+ CSK_authoritarian_democracy_DEF:0 "the Cossack Republic"
+ CSK_authoritarian_democracy_ADJ:0 "Cossack"
+ 
  PSK_authoritarian_democracy:0 "Pskov"
  PSK_authoritarian_democracy_DEF:0 "Pskov"
  PSK_authoritarian_democracy_ADJ:0 "Pskov"
@@ -3009,6 +3021,10 @@
  ILL_vanguard_communism_DEF:0 "the Illyrian Union"
  ILL_vanguard_communism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ CSK_vanguard_communism:0 "Cossack People's Republic"
+ CSK_vanguard_communism_DEF:0 "the Cossack People's Republic"
+ CSK_vanguard_communism_ADJ:0 "Cossack"
+ 
  PSK_vanguard_communism:0 "Pskov"
  PSK_vanguard_communism_DEF:0 "Pskov"
  PSK_vanguard_communism_ADJ:0 "Pskov"
@@ -3731,6 +3747,10 @@
  ILL_socialism_DEF:0 "the Illyrian Union"
  ILL_socialism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ CSK_socialism:0 "Cossack Republic"
+ CSK_socialism_DEF:0 "the Cossack Republic"
+ CSK_socialism_ADJ:0 "Cossack"
+ 
  PSK_socialism:0 "Pskov"
  PSK_socialism_DEF:0 "Pskov"
  PSK_socialism_ADJ:0 "Pskov"
@@ -4453,6 +4473,10 @@
  ILL_marxist_leninist_DEF:0 "the Illyrian Union"
  ILL_marxist_leninist_ADJ:0 "Illyrian"
  #Russian Warlords#
+ CSK_marxist_leninist:0 "Cossack Republic"
+ CSK_marxist_leninist_DEF:0 "the Cossack Republic"
+ CSK_marxist_leninist_ADJ:0 "Cossack"
+ 
  PSK_marxist_leninist:0 "Pskov"
  PSK_marxist_leninist_DEF:0 "Pskov"
  PSK_marxist_leninist_ADJ:0 "Pskov"
@@ -5175,6 +5199,10 @@
  ILL_anarchist_communism_DEF:0 "the Illyrian Union of Communes"
  ILL_anarchist_communism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ CSK_anarchist_communism:0 "Cossack Free Territory"
+ CSK_anarchist_communism_DEF:0 "the Cossack Free Territory"
+ CSK_anarchist_communism_ADJ:0 "Cossack"
+ 
  PSK_anarchist_communism:0 "Pskov"
  PSK_anarchist_communism_DEF:0 "Pskov"
  PSK_anarchist_communism_ADJ:0 "Pskov"
@@ -5897,6 +5925,10 @@
  ILL_conservatism_DEF:0 "the Illyrian Kingdom"
  ILL_conservatism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ CSK_conservatism:0 "Cossack Republic"
+ CSK_conservatism_DEF:0 "the Cossack Republic"
+ CSK_conservatism_ADJ:0 "Cossack"
+ 
  PSK_conservatism:0 "Pskov"
  PSK_conservatism_DEF:0 "Pskov"
  PSK_conservatism_ADJ:0 "Pskov"
@@ -6619,6 +6651,10 @@
  ILL_social_liberalism_DEF:0 "the Illyrian Kingdom"
  ILL_social_liberalism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ CSK_social_liberalism:0 "Cossack Republic"
+ CSK_social_liberalism_DEF:0 "the Cossack Republic"
+ CSK_social_liberalism_ADJ:0 "Cossack"
+ 
  PSK_social_liberalism:0 "Pskov"
  PSK_social_liberalism_DEF:0 "Pskov"
  PSK_social_liberalism_ADJ:0 "Pskov"
@@ -7341,6 +7377,10 @@
  ILL_market_liberalism_DEF:0 "the Illyrian Kingdom"
  ILL_market_liberalism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ CSK_market_liberalism:0 "Cossack Republic"
+ CSK_market_liberalism_DEF:0 "the Cossack Republic"
+ CSK_market_liberalism_ADJ:0 "Cossack"
+ 
  PSK_market_liberalism:0 "Pskov"
  PSK_market_liberalism_DEF:0 "Pskov"
  PSK_market_liberalism_ADJ:0 "Pskov"
@@ -8063,6 +8103,10 @@
  ILL_social_democracy_DEF:0 "the Illyrian Kingdom"
  ILL_social_democracy_ADJ:0 "Illyrian"
  #Russian Warlords#
+ CSK_social_democracy:0 "Cossack Republic"
+ CSK_social_democracy_DEF:0 "the Cossack Republic"
+ CSK_social_democracy_ADJ:0 "Cossack"
+ 
  PSK_social_democracy:0 "Pskov"
  PSK_social_democracy_DEF:0 "Pskov"
  PSK_social_democracy_ADJ:0 "Pskov"

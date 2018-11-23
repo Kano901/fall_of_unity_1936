@@ -79,6 +79,7 @@ set_politics = {
 
 add_ideas = {
 	trotskyite_plot
+	defence_of_russia
 	home_of_revolution
 }
 

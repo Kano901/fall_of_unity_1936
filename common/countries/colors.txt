@@ -827,3 +827,7 @@ PSK = {
 	color = rgb { 150 150 0 }
 	color_ui = rgb { 150 150 0 }
 }
+CSK = {
+	color = rgb { 59  158  125 }
+	color_ui = rgb { 59  158  125 }
+}

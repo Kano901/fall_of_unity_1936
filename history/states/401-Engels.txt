@@ -12,12 +12,13 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = CSK
 		buildings = {
 			infrastructure = 4
 		}
 		add_core_of = SOV
 		add_core_of = RUS
+		add_core_of = CSK
 	}
 
 	provinces={
