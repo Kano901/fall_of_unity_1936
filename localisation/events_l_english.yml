@@ -3131,4 +3131,12 @@
  patrioticwar.4.d:0 "It is no secret that Russia is under assault from the German war machine. The Soviets have sent us a simple offer: "Join the United Front, stand alongside comrades." How do we reply?"
  patrioticwar.4.a:0 "We stand as brothers! To Arms!"
  patrioticwar.4.b:0 "They stand alone, we cannot risk our men..."
+ expulsion_events.1.t:0 "Russian attacks in Sochi and Abkhazia"
+ expulsion_events.1.d:0 "Our brave and honourable police and military who patrol our new lands in Abkhazia have come under attack by militant Russian seperatists. Our poor Georgian citizens and settlers are also receiving abuse and threats of violence from the native Russians. Our options are laid in front of us: on one hand, we could militarily drive them off and deport them to the Volga Cossacks, or we could try to diplomatically host a peace ceremony between the speratist militias and our own forces in the region. How do we respond to these violent attacks?"
+ expulsion_events.1.a:0 "Our valiant men and women shall crush these rag-tag bandits and deport collaborators!"
+ expulsion_events.1.b:0 "Our diplomats and ambassadors have been sent in, lets hope this results in peace in the region..."
+ expulsion_events.2.t:0 "Violence in Georgia!"
+ expulsion_events.2.d:0 "Just this week, Georgian soldiers were seen slaughtering Russian partisans in the streets of Sochi, the latest Georgian claim. Many have reportedly seen flamethrowers and gas launchers being used on strongholds and pillboxes in the outskirts of the city. Disturbing reports of mass deportations of Russian citizens have been confirmed. Ataman of the Volga Republic, Pyotr Krasnov has said: "Many thousands of Russians, we cannot house them all." and now Volgan border troops have seen defiant Russians being shot and bayonetted. Georgian Commissar-General Joseph Stalin has denied questioning."
+ expulsion_events.2.a:0 "We are doing what we must to defend Georgia!"
+ expulsion_events.2.b:0 "Another wedge driven into civility..."
  

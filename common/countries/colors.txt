@@ -831,3 +831,23 @@ CSK = {
 	color = rgb { 59  158  125 }
 	color_ui = rgb { 59  158  125 }
 }
+TAT = {
+	color = rgb { 142 165 119 }
+	color_ui = rgb { 142 165 119 }
+}
+ORE = {
+	color = rgb { 183 76 124 }
+	color_ui = rgb { 183 76 124 }
+}
+UFA = {
+	color = rgb { 105 43 175 }
+	color_ui = rgb { 105 43 175 }
+}
+KIR = {
+	color = rgb { 116 135 114 }
+	color_ui = rgb { 116 135 114 }
+}
+PRM = {
+	color = rgb { 178 147 69 }
+	color_ui = rgb { 178 147 69 }
+}

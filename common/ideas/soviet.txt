@@ -36,7 +36,7 @@ ideas = {
 				}
 			}
 
-			picture = great_patriotic_war.dds
+			picture = great_patriotic_war
 			
 			modifier = {
 				conscription = 0.03

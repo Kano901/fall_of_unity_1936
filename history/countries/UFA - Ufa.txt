@@ -1,0 +1,54 @@
+﻿capital = 652 #Magnitogorsk
+
+oob = "ORE_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	mass_assault = 1
+}
+
+set_politics = {
+
+	parties = {
+		marxist_leninist = { 
+			popularity = 84
+		}
+		
+		socialism = {
+			popularity = 8
+		}
+		
+		anarchist_communism = {
+			popularity = 8
+		}
+	}
+	
+	ruling_party = marxist_leninist	
+	last_election = "1931.11.8"
+	election_frequency = 72
+	elections_allowed = no
+
+
+}
+
+create_country_leader = {
+	name = "Vasily Blyukher"
+	desc = ""
+	picture = "gfx/leaders/ANR/anarchyleader.png"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+#couldnt find anything else, the commies simply forced everyone else into exile
+
+
+

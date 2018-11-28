@@ -2,7 +2,7 @@
 # MAIN THEME
 music = {
 	name = "maintheme"
-	file = "shostakovich_waltz_no2.ogg"
+	file = "maintheme.ogg"
 	volume = 0.65
 }
 

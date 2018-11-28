@@ -121,6 +121,30 @@
  ILL_national_socialism_DEF:0 "Illyria"
  ILL_national_socialism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ ORE_national_socialism:0 "Orenburg"
+ ORE_national_socialism_DEF:0 "Orenburg"
+ ORE_national_socialism_ADJ:0 "Orenburg"
+ 
+ UFA_national_socialism:0 "Ufa"
+ UFA_national_socialism_DEF:0 "Ufa"
+ UFA_national_socialism_ADJ:0 "Ufa"
+ 
+ KIR_national_socialism:0 "Kirov"
+ KIR_national_socialism_DEF:0 "Kirov"
+ KIR_national_socialism_ADJ:0 "Kirov"
+ 
+ PRM_national_socialism:0 "Perm"
+ PRM_national_socialism_DEF:0 "Perm"
+ PRM_national_socialism_ADJ:0 "Perm"
+ 
+ CSK_national_socialism:0 "Cossack State"
+ CSK_national_socialism_DEF:0 "the Cossack State"
+ CSK_national_socialism_ADJ:0 "Cossack"
+ 
+ TAT_national_socialism:0 "Idel-Ural State"
+ TAT_national_socialism_DEF:0 "the Idel-Ural State"
+ TAT_national_socialism_ADJ:0 "Tatar"
+ 
  PSK_national_socialism:0 "Pskov"
  PSK_national_socialism_DEF:0 "Pskov"
  PSK_national_socialism_ADJ:0 "Pskov"
@@ -843,9 +867,29 @@
  ILL_fascism_DEF:0 "Illyria"
  ILL_fascism_ADJ:0 "Illyrian"
  #Russian Warlords#
- CSK_national_socialism:0 "United Cossack State"
- CSK_national_socialism_DEF:0 "the United Cossack State"
- CSK_national_socialism_ADJ:0 "Cossack"
+ ORE_fascism:0 "Orenburg"
+ ORE_fascism_DEF:0 "Orenburg"
+ ORE_fascism_ADJ:0 "Orenburg"
+ 
+ UFA_fascism:0 "Ufa"
+ UFA_fascism_DEF:0 "Ufa"
+ UFA_fascism_ADJ:0 "Ufa"
+ 
+ KIR_fascism:0 "Kirov"
+ KIR_fascism_DEF:0 "Kirov"
+ KIR_fascism_ADJ:0 "Kirov"
+ 
+ PRM_fascism:0 "Perm"
+ PRM_fascism_DEF:0 "Perm"
+ PRM_fascism_ADJ:0 "Perm"
+ 
+ TAT_fascism:0 "Tatarstan"
+ TAT_fascism_DEF:0 "Tatarstan"
+ TAT_fascism_ADJ:0 "Tatar"
+ 
+ CSK_fascism:0 "United Cossack State"
+ CSK_fascism_DEF:0 "the United Cossack State"
+ CSK_fascism_ADJ:0 "Cossack"
  
  PSK_fascism:0 "Pskov"
  PSK_fascism_DEF:0 "Pskov"
@@ -1569,6 +1613,26 @@
  ILL_despotism_DEF:0 "the Illyrian Kingdom"
  ILL_despotism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ ORE_despotism:0 "Orenburg"
+ ORE_despotism_DEF:0 "Orenburg"
+ ORE_despotism_ADJ:0 "Orenburg"
+ 
+ UFA_despotism:0 "Ufa"
+ UFA_despotism_DEF:0 "Ufa"
+ UFA_despotism_ADJ:0 "Ufa"
+ 
+ KIR_despotism:0 "Kirov"
+ KIR_despotism_DEF:0 "Kirov"
+ KIR_despotism_ADJ:0 "Kirov"
+ 
+ PRM_despotism:0 "Perm"
+ PRM_despotism_DEF:0 "Perm"
+ PRM_despotism_ADJ:0 "Perm"
+ 
+ TAT_despotism:0 "Tatarstan"
+ TAT_despotism_DEF:0 "Tatarstan"
+ TAT_despotism_ADJ:0 "Tatar"
+ 
  CSK_despotism:0 "Cossack Republic"
  CSK_despotism_DEF:0 "the Cossack Republic"
  CSK_despotism_ADJ:0 "Cossack"
@@ -2295,6 +2359,26 @@
  ILL_authoritarian_democracy_DEF:0 "the Illyrian Kingdom"
  ILL_authoritarian_democracy_ADJ:0 "Illyrian"
  #Russian Warlords#
+ ORE_authoritarian_democracy:0 "Orenburg"
+ ORE_authoritarian_democracy_DEF:0 "Orenburg"
+ ORE_authoritarian_democracy_ADJ:0 "Orenburg"
+ 
+ UFA_authoritarian_democracy:0 "Ufa"
+ UFA_authoritarian_democracy_DEF:0 "Ufa"
+ UFA_authoritarian_democracy_ADJ:0 "Ufa"
+ 
+ KIR_authoritarian_democracy:0 "Kirov"
+ KIR_authoritarian_democracy_DEF:0 "Kirov"
+ KIR_authoritarian_democracy_ADJ:0 "Kirov"
+ 
+ PRM_authoritarian_democracy:0 "Perm"
+ PRM_authoritarian_democracy_DEF:0 "Perm"
+ PRM_authoritarian_democracy_ADJ:0 "Perm"
+ 
+ TAT_authoritarian_democracy:0 "Tatarstan"
+ TAT_authoritarian_democracy_DEF:0 "Tatarstan"
+ TAT_authoritarian_democracy_ADJ:0 "Tatar"
+ 
  CSK_authoritarian_democracy:0 "Cossack Republic"
  CSK_authoritarian_democracy_DEF:0 "the Cossack Republic"
  CSK_authoritarian_democracy_ADJ:0 "Cossack"
@@ -3021,6 +3105,26 @@
  ILL_vanguard_communism_DEF:0 "the Illyrian Union"
  ILL_vanguard_communism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ ORE_vanguard_communism:0 "Orenburg"
+ ORE_vanguard_communism_DEF:0 "Orenburg"
+ ORE_vanguard_communism_ADJ:0 "Orenburg"
+ 
+ UFA_vanguard_communism:0 "Ufa"
+ UFA_vanguard_communism_DEF:0 "Ufa"
+ UFA_vanguard_communism_ADJ:0 "Ufa"
+ 
+ KIR_vanguard_communism:0 "Kirov"
+ KIR_vanguard_communism_DEF:0 "Kirov"
+ KIR_vanguard_communism_ADJ:0 "Kirov"
+ 
+ PRM_vanguard_communism:0 "Perm"
+ PRM_vanguard_communism_DEF:0 "Perm"
+ PRM_vanguard_communism_ADJ:0 "Perm"
+ 
+ TAT_vanguard_communism:0 "Tatar Worker's Republic"
+ TAT_vanguard_communism_DEF:0 "the Tatar Worker's Republic"
+ TAT_vanguard_communism_ADJ:0 "Tatar"
+ 
  CSK_vanguard_communism:0 "Cossack People's Republic"
  CSK_vanguard_communism_DEF:0 "the Cossack People's Republic"
  CSK_vanguard_communism_ADJ:0 "Cossack"
@@ -3747,6 +3851,26 @@
  ILL_socialism_DEF:0 "the Illyrian Union"
  ILL_socialism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ ORE_socialism:0 "Orenburg"
+ ORE_socialism_DEF:0 "Orenburg"
+ ORE_socialism_ADJ:0 "Orenburg"
+ 
+ UFA_socialism:0 "Ufa"
+ UFA_socialism_DEF:0 "Ufa"
+ UFA_socialism_ADJ:0 "Ufa"
+ 
+ KIR_socialism:0 "Kirov"
+ KIR_socialism_DEF:0 "Kirov"
+ KIR_socialism_ADJ:0 "Kirov"
+ 
+ PRM_socialism:0 "Perm"
+ PRM_socialism_DEF:0 "Perm"
+ PRM_socialism_ADJ:0 "Perm"
+ 
+ TAT_socialism:0 "Tatarstan"
+ TAT_socialism_DEF:0 "Tatarstan"
+ TAT_socialism_ADJ:0 "Tatar"
+ 
  CSK_socialism:0 "Cossack Republic"
  CSK_socialism_DEF:0 "the Cossack Republic"
  CSK_socialism_ADJ:0 "Cossack"
@@ -4473,6 +4597,26 @@
  ILL_marxist_leninist_DEF:0 "the Illyrian Union"
  ILL_marxist_leninist_ADJ:0 "Illyrian"
  #Russian Warlords#
+ ORE_marxist_leninist:0 "Orenburg"
+ ORE_marxist_leninist_DEF:0 "Orenburg"
+ ORE_marxist_leninist_ADJ:0 "Orenburg"
+ 
+ UFA_marxist_leninist:0 "Ufa"
+ UFA_marxist_leninist_DEF:0 "Ufa"
+ UFA_marxist_leninist_ADJ:0 "Ufa"
+ 
+ KIR_marxist_leninist:0 "Kirov"
+ KIR_marxist_leninist_DEF:0 "Kirov"
+ KIR_marxist_leninist_ADJ:0 "Kirov"
+ 
+ PRM_marxist_leninist:0 "Perm"
+ PRM_marxist_leninist_DEF:0 "Perm"
+ PRM_marxist_leninist_ADJ:0 "Perm"
+ 
+ TAT_marxist_leninist:0 "Tatar Worker's Republic"
+ TAT_marxist_leninist_DEF:0 "the Tatar Worker's Republic"
+ TAT_marxist_leninist_ADJ:0 "Tatar"
+ 
  CSK_marxist_leninist:0 "Cossack Republic"
  CSK_marxist_leninist_DEF:0 "the Cossack Republic"
  CSK_marxist_leninist_ADJ:0 "Cossack"
@@ -5199,6 +5343,26 @@
  ILL_anarchist_communism_DEF:0 "the Illyrian Union of Communes"
  ILL_anarchist_communism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ ORE_anarchist_communism:0 "Orenburg"
+ ORE_anarchist_communism_DEF:0 "Orenburg"
+ ORE_anarchist_communism_ADJ:0 "Orenburg"
+ 
+ UFA_anarchist_communism:0 "Ufa"
+ UFA_anarchist_communism_DEF:0 "Ufa"
+ UFA_anarchist_communism_ADJ:0 "Ufa"
+ 
+ KIR_anarchist_communism:0 "Kirov"
+ KIR_anarchist_communism_DEF:0 "Kirov"
+ KIR_anarchist_communism_ADJ:0 "Kirov"
+ 
+ PRM_anarchist_communism:0 "Perm"
+ PRM_anarchist_communism_DEF:0 "Perm"
+ PRM_anarchist_communism_ADJ:0 "Perm"
+ 
+ TAT_anarchist_communism:0 "Tatarstan"
+ TAT_anarchist_communism_DEF:0 "Tatarstan"
+ TAT_anarchist_communism_ADJ:0 "Tatar"
+ 
  CSK_anarchist_communism:0 "Cossack Free Territory"
  CSK_anarchist_communism_DEF:0 "the Cossack Free Territory"
  CSK_anarchist_communism_ADJ:0 "Cossack"
@@ -5925,6 +6089,26 @@
  ILL_conservatism_DEF:0 "the Illyrian Kingdom"
  ILL_conservatism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ ORE_conservatism:0 "Orenburg"
+ ORE_conservatism_DEF:0 "Orenburg"
+ ORE_conservatism_ADJ:0 "Orenburg"
+ 
+ UFA_conservatism:0 "Ufa"
+ UFA_conservatism_DEF:0 "Ufa"
+ UFA_conservatism_ADJ:0 "Ufa"
+ 
+ KIR_conservatism:0 "Kirov"
+ KIR_conservatism_DEF:0 "Kirov"
+ KIR_conservatism_ADJ:0 "Kirov"
+ 
+ PRM_conservatism:0 "Perm"
+ PRM_conservatism_DEF:0 "Perm"
+ PRM_conservatism_ADJ:0 "Perm"
+ 
+ TAT_conservatism:0 "Tatarstan"
+ TAT_conservatism_DEF:0 "Tatarstan"
+ TAT_conservatism_ADJ:0 "Tatar"
+ 
  CSK_conservatism:0 "Cossack Republic"
  CSK_conservatism_DEF:0 "the Cossack Republic"
  CSK_conservatism_ADJ:0 "Cossack"
@@ -6651,6 +6835,26 @@
  ILL_social_liberalism_DEF:0 "the Illyrian Kingdom"
  ILL_social_liberalism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ ORE_social_liberalism:0 "Orenburg"
+ ORE_social_liberalism_DEF:0 "Orenburg"
+ ORE_social_liberalism_ADJ:0 "Orenburg"
+ 
+ UFA_social_liberalism:0 "Ufa"
+ UFA_social_liberalism_DEF:0 "Ufa"
+ UFA_social_liberalism_ADJ:0 "Ufa"
+ 
+ KIR_social_liberalism:0 "Kirov"
+ KIR_social_liberalism_DEF:0 "Kirov"
+ KIR_social_liberalism_ADJ:0 "Kirov"
+ 
+ PRM_social_liberalism:0 "Perm"
+ PRM_social_liberalism_DEF:0 "Perm"
+ PRM_social_liberalism_ADJ:0 "Perm"
+ 
+ TAT_social_liberalism:0 "Tatarstan"
+ TAT_social_liberalism_DEF:0 "Tatarstan"
+ TAT_social_liberalism_ADJ:0 "Tatar"
+ 
  CSK_social_liberalism:0 "Cossack Republic"
  CSK_social_liberalism_DEF:0 "the Cossack Republic"
  CSK_social_liberalism_ADJ:0 "Cossack"
@@ -7377,6 +7581,26 @@
  ILL_market_liberalism_DEF:0 "the Illyrian Kingdom"
  ILL_market_liberalism_ADJ:0 "Illyrian"
  #Russian Warlords#
+ ORE_market_liberalism:0 "Orenburg"
+ ORE_market_liberalism_DEF:0 "Orenburg"
+ ORE_market_liberalism_ADJ:0 "Orenburg"
+ 
+ UFA_market_liberalism:0 "Ufa"
+ UFA_market_liberalism_DEF:0 "Ufa"
+ UFA_market_liberalism_ADJ:0 "Ufa"
+ 
+ KIR_market_liberalism:0 "Kirov"
+ KIR_market_liberalism_DEF:0 "Kirov"
+ KIR_market_liberalism_ADJ:0 "Kirov"
+ 
+ PRM_market_liberalism:0 "Perm"
+ PRM_market_liberalism_DEF:0 "Perm"
+ PRM_market_liberalism_ADJ:0 "Perm"
+ 
+ TAT_market_liberalism:0 "Tatarstan"
+ TAT_market_liberalism_DEF:0 "Tatarstan"
+ TAT_market_liberalism_ADJ:0 "Tatar"
+ 
  CSK_market_liberalism:0 "Cossack Republic"
  CSK_market_liberalism_DEF:0 "the Cossack Republic"
  CSK_market_liberalism_ADJ:0 "Cossack"
@@ -8103,6 +8327,26 @@
  ILL_social_democracy_DEF:0 "the Illyrian Kingdom"
  ILL_social_democracy_ADJ:0 "Illyrian"
  #Russian Warlords#
+ ORE_social_democracy:0 "Orenburg"
+ ORE_social_democracy_DEF:0 "Orenburg"
+ ORE_social_democracy_ADJ:0 "Orenburg"
+ 
+ UFA_social_democracy:0 "Ufa"
+ UFA_social_democracy_DEF:0 "Ufa"
+ UFA_social_democracy_ADJ:0 "Ufa"
+ 
+ KIR_social_democracy:0 "Kirov"
+ KIR_social_democracy_DEF:0 "Kirov"
+ KIR_social_democracy_ADJ:0 "Kirov"
+ 
+ PRM_social_democracy:0 "Perm"
+ PRM_social_democracy_DEF:0 "Perm"
+ PRM_social_democracy_ADJ:0 "Perm"
+ 
+ TAT_social_democracy:0 "Tatarstan"
+ TAT_social_democracy_DEF:0 "Tatarstan"
+ TAT_social_democracy_ADJ:0 "Tatar"
+ 
  CSK_social_democracy:0 "Cossack Republic"
  CSK_social_democracy_DEF:0 "the Cossack Republic"
  CSK_social_democracy_ADJ:0 "Cossack"

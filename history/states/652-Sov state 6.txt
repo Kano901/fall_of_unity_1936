@@ -3,22 +3,23 @@ state={
 	id=652
 	name="STATE_652" # Orenburg
 	manpower = 1225870
-	state_category = city
+	state_category = large_city
 	
 	resources={
 		steel=20 # was: 28
 	}
 
 	history={
-		owner = RUS
+		owner = ORE
 		buildings = {
 			infrastructure = 5
-			arms_factory = 2
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 4
 
 		}
 		add_core_of = RUS
 		add_core_of = SOV
+		add_core_of = ORE
 	}
 
 	provinces={
