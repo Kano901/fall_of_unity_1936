@@ -12,21 +12,25 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		conservatism = { 
+			popularity = 6
 		}
 
 		fascism = {
-			popularity = 100
+			popularity = 62
 		}
 		
-		communism = {
-			popularity = 0
+		authoritarian_democracy = {
+			popularity = 6
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
-			popularity = 0
+		national_socialism = { 
+			popularity = 11
+		}
+		
+		despotism = {
+			popularity = 15
 		}
 	}
 	
@@ -45,11 +49,11 @@ add_to_faction = PAK
 
 # Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
-	name = "Mohammed Ali Khan"
+	name = "PLACEHOLDER"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
-	ideology = islamic_republicanism
+	ideology = islamic_nationalism
 	traits = {
 		#
 	}
