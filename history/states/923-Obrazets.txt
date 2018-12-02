@@ -1,0 +1,23 @@
+state={
+	id=923
+	name="STATE_923"
+	
+	history={
+		owner = OMS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KAZ
+		add_core_of = AKM
+		add_core_of = OMS
+		add_core_of = SOV
+		add_core_of = RUS
+	}
+	
+	provinces={
+		13215 13216 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

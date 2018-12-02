@@ -7,31 +7,35 @@ set_research_slots = 3
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
-	tech_military_police = 1
-	tech_mountaineers = 1
 	gw_artillery = 1
 }
 
 set_politics = {
 
 	parties = {
-		fascism = { 
-			popularity = 0
+		socialism = { 
+			popularity = 20
 		}	
 	
-		democratic = { 
-			popularity = 5
+		marxist_leninist = { 
+			popularity = 15
 		}
 		
-		communism = {
-			popularity = 95
-		}	
+		vanguard_communism = {
+			popularity = 55
+		}
+
+		despotism = {
+			popularity = 3
+		}
+		
+		authoritarian_democracy = {
+			popularity = 7
+		}
 	}
-	ruling_party = communism
+	ruling_party = vanguard_communism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -43,7 +47,7 @@ create_country_leader = {
 	desc = ""
 	picture = "kobozev.tga"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = vanguardist
 	traits = {
 		
 	}

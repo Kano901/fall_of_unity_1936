@@ -434,6 +434,9 @@ ideologies = {
 			
 			ukrainian_nationalism = {
 			}
+			
+			celtic_nationalism = {
+			}
 		}
 		
 		dynamic_faction_names = {

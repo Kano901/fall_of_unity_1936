@@ -44,35 +44,35 @@ set_politics = {
 
 	parties = {
 		social_liberalism = { 
-			popularity = 86
+			popularity = 42
 		}
 
 		fascism = {
-			popularity = 4
+			popularity = 11
 		}
 		
 		national_socialism = {
-			popularity = 10
+			popularity = 5
 		}
 		
 		despotism = {
-			popularity = 0
+			popularity = 8
 		}
 		
 		market_liberalism = {
-			popularity = 0
+			popularity = 12
 		}
 		
 		social_democracy = {
-			popularity = 0
+			popularity = 5
 		}
 		
 		authoritarian_democracy = {
-			popularity = 0
+			popularity = 7
 		}
 		
-		marxist_leninist = {
-			popularity = 0
+		conservatism = {
+			popularity = 10
 		}
 	}
 	ruling_party = social_liberalism

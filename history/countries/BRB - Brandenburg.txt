@@ -36,23 +36,39 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 5
+		despotism = { 
+			popularity = 42
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 4
 		}
 		
-		communism = {
-			popularity = 0
+		socialism = {
+			popularity = 3
 		}
-		neutrality = { 
-			popularity = 95
+		authoritarian_democracy = { 
+			popularity = 23
+		}
+		
+		national_socialism = {
+			popularity = 3
+		}
+		
+		conservatism = {
+			popularity = 10
+		}
+		
+		social_liberalism = {
+			popularity = 10
+		}
+		
+		market_liberalism = {
+			market_liberalism = 5
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = no
@@ -97,6 +113,14 @@ create_country_leader = {
 	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
 	picture = "wilhelm_iii.png"
 	expire = "1965.1.1"
-	ideology = despotic_monarchism
+	ideology = absolute_monarchism
+}
+
+create_country_leader = {
+	name = "Wilhelm III"
+	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
+	picture = "wilhelm_iii.png"
+	expire = "1965.1.1"
+	ideology = auth_monarchy
 }
 

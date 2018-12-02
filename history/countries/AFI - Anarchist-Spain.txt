@@ -20,20 +20,28 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 13
+		socialist = { 
+			popularity = 25
 		}
 		
-		fascism = {
-			popularity = 0
+		anarchist_communism = {
+			popularity = 55
 		}
 		
-		communism = {
-			popularity = 87
+		marxist_leninist = {
+			popularity = 15
+		}
+		
+		social_liberalism = {
+			popularity = 2
+		}
+		
+		social_democracy = {
+			popularity = 3
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = anarchist_communism
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
@@ -42,7 +50,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = ""
+	name = "Council of the Anarchist Federation"
 	desc = ""
 	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 	expire = "1953.3.1"

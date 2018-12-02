@@ -38,16 +38,20 @@ if = {
 set_politics = {
     parties = {
         fascism = { 
-            popularity = 75
+            popularity = 55
         }
 
-        neutrality = {
-            popularity = 10
+        despotism = {
+            popularity = 20
         }
 
-        democratic = {
+        national_socialism = {
             popularity = 15
         }
+		
+		authoritarian_democracy = {
+			popularity = 10
+		}
     }
 
     ruling_party = fascism
@@ -69,7 +73,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
     expire = "1953.3.1"
-    ideology = fascism_ideology
+    ideology = celtic_nationalism
     traits = {
 
     }
@@ -79,7 +83,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
     expire = "1953.3.1"
-    ideology = anarchist_communism
+    ideology = anarchy
     traits = {
 
     }

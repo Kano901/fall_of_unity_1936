@@ -24,15 +24,15 @@ set_politics = {
 			popularity = 20
 		}	
 	
-		democratic = { 
-			popularity = 0
+		authoritarian_democracy = { 
+			popularity = 15
 		}
 		
-		neutrality = {
-			popularity = 80
+		despotism = {
+			popularity = 65
 		}	
 	}
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -44,7 +44,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1953.3.1"
-	ideology = despotism
+	ideology = warlord_state
 	traits = {
 		
 	}

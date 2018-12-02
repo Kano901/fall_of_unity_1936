@@ -116,6 +116,24 @@ country_event = {
 			NOV = {
 				country_event = { days = 3 id = patrioticwar.3 }
 			}
+			CSK = {
+				country_event = { days = 3 id = patrioticwar.3 }
+			}
+			ORE = {
+				country_event = { days = 3 id = patrioticwar.3 }
+			}
+			TAT = {
+				country_event = { days = 3 id = patrioticwar.3 }
+			}
+			UFA = {
+				country_event = { days = 3 id = patrioticwar.3 }
+			}
+			PRM = {
+				country_event = { days = 3 id = patrioticwar.3 }
+			}
+			KIR = {
+				country_event = { days = 3 id = patrioticwar.3 }
+			}
 		}
 	}
 	option = { #Alone, we stood against Fascism!

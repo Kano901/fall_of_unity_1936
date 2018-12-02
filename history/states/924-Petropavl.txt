@@ -1,0 +1,21 @@
+state={
+	id=924
+	name="STATE_924"
+	
+	history={
+		owner = TYU
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = KAZ
+		add_core_of = AKM
+		add_core_of = TYU
+	}
+	
+	provinces={
+		1694 7874 
+	}
+	manpower=85000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}
