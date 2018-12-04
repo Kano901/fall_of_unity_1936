@@ -2,7 +2,7 @@
 
 oob = "VOL_1936"
 
-set_research_slots = 2
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
@@ -16,23 +16,39 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 15
+		conservatism = { 
+			popularity = 12
 		}
 
+		despotism = {
+			popularity = 16
+		}
+		
+		vanguard_communism = {
+			popularity = 8
+		}
+		
+		authoritarian_democracy = {
+			popularity = 44
+		}
+		
 		fascism = {
-			popularity = 28
+			popularity = 5
 		}
 		
-		communism = {
-			popularity = 7
+		social_liberalism = {
+			popularity = 5
 		}
 		
-		neutrality = {
-			popularity = 50
+		marxist_leninist = {
+			popularity = 9
+		}
+		
+		anarchist_communism = {
+			popularity = 1
 		}
 	}
-	ruling_party = neutrality
+	ruling_party = authoritarian_democracy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -43,7 +59,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = conservative
 	traits = {
 		
 	}
@@ -54,7 +70,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = vanguardist
 	traits = {
 		
 	}
@@ -65,7 +81,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/VOL/Portrait_Volga_Pyotr_Krasnov.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = warlord_state
 	traits = {
 		
 	}
@@ -76,7 +92,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/VOL/Portrait_Volga_Pyotr_Krasnov.dds"
 	expire = "1953.3.1"
-	ideology = oligarchism
+	ideology = auth_warlord
 	traits = {
 		
 	}

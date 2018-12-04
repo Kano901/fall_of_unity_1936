@@ -437,6 +437,9 @@ ideologies = {
 			
 			celtic_nationalism = {
 			}
+			
+			fascist_monarchism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -539,6 +542,9 @@ ideologies = {
 			}
 			
 			auth_warlord = {
+			}
+			
+			oligarchism = {
 			}
 			
 			

@@ -32,51 +32,35 @@ set_stability = 0.7
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 21
+		conservatism = { 
+			popularity = 18
 		}
 
 		fascism = {
-			popularity = 12
+			popularity = 7
 		}
 		
-		neutrality = {
-			popularity = 67
+		authoritarian_democracy = {
+			popularity = 47
+		}
+		
+		despotism = {
+			popularity = 14
+		}
+		
+		market_liberalism = {
+			popularity = 10
+		}
+		
+		national_socialism = {
+			popularity = 4
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = authoritarian_democracy
 	last_election = "1933.10.16"
 	election_frequency = 36
-	elections_allowed = yes
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 84
-			}
-
-			fascism = {
-				popularity = 2
-			}
-			
-			communism = {
-				popularity = 2
-			}
-
-			neutrality = {
-				popularity = 12
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1936.10.19"
-		election_frequency = 36
-		elections_allowed = yes
-	}
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -84,7 +68,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
 	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservative
 	traits = {
 		#
 	}
@@ -106,7 +90,29 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
 	picture = "gfx/leaders/JUT/Christian_X.dds"
 	expire = "1965.1.1"
-	ideology = despotic_monarchism
+	ideology = auth_monarchy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Christian X"
+	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
+	picture = "gfx/leaders/JUT/Christian_X.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Christian X"
+	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
+	picture = "gfx/leaders/JUT/Christian_X.dds"
+	expire = "1965.1.1"
+	ideology = fascist_monarchism
 	traits = {
 		#
 	}

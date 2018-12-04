@@ -30,11 +30,11 @@ set_politics = {
 
 	parties = {
 		conservatism = { 
-			popularity = 27
+			popularity = 30
 		}
 
 		fascism = {
-			popularity = 13
+			popularity = 11
 		}
 
 		market_liberalism = {
@@ -50,7 +50,7 @@ set_politics = {
 		}
 
 		socialism = { 
-			popularity = 15
+			popularity = 14
 		}
 	}
 	
@@ -63,7 +63,7 @@ set_politics = {
 create_country_leader = {
 	name = "Stanisław Wojciechowski"
 	desc = "POLITICS_STANISLAW_WOJCIECHOWSKI_DESC"
-	picture = "-"
+	picture = "wojciechowski.png"
 	expire = "1965.1.1"
 	ideology = conservative
 	traits = {

@@ -12,24 +12,28 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 8
+		socialism = { 
+			popularity = 10
 		}
 
-		fascism = {
-			popularity = 12
+		social_liberalism = {
+			popularity = 5
 		}
 		
-		communism = {
-			popularity = 80
+		anarchist_communism = {
+			popularity = 55
 		}
 		
-		neutrality = { 
-			popularity = 0
+		marxist_leninist = { 
+			popularity = 25
+		}
+		
+		vanguard_communism = {
+			popularity = 5
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = anarchist_communism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,13 +41,12 @@ set_politics = {
 
 set_convoys = 50
 
-#Victor Emmanuel III of Italy after 39
 create_country_leader = {
 	name = "Nestor Makhno"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_Crimea_Nestor_Makhno.dds"
 	expire = "1965.1.1"
-	ideology = anarchist_communism
+	ideology = anarchy
 	traits = {
 		#
 	}

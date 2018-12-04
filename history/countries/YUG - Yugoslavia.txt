@@ -26,25 +26,40 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 15
+		conservatism = { 
+			popularity = 18
 		}
 
 		fascism = {
-			popularity = 10
+			popularity = 2
 		}
 		
-		communism = {
-			popularity = 15
-			#banned = no #default is no
+		vanguard_communism = {
+			popularity = 4
 		}
 		
-		neutrality = { 
-			popularity = 60
+		despotism = { 
+			popularity = 52
+		}
+		
+		national_socialism = {
+			popularity = 9
+		}
+		
+		marxist_leninist = {
+			popularity = 4
+		}
+		
+		socialism = {
+			popularity = 5
+		}
+		
+		social_liberalism = {
+			popularity = 5
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.5.3"
 	election_frequency = 36
 	elections_allowed = yes
@@ -57,7 +72,7 @@ create_country_leader = {
 	desc = ""
 	picture = "alexander_i.png"
 	expire = "1965.1.1"
-	ideology = despotic_monarchism
+	ideology = absolute_monarchism
 }
 
 create_country_leader = {
