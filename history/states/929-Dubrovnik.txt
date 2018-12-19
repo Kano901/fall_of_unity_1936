@@ -1,0 +1,22 @@
+state={
+	id=929
+	name="STATE_929"
+	
+	history={
+		owner = ILL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		add_core_of = YUG
+		add_core_of = ILL
+	}
+	
+	provinces={
+		3868 6889 11816 
+	}
+	manpower=114876
+	buildings_max_level_factor=1.000
+	state_category = town
+}

@@ -1,0 +1,32 @@
+state={
+	id=928
+	name="STATE_928"
+	
+	history={
+		owner = NRM
+		victory_points = {
+			9434 5 
+		}
+		victory_points = {
+			11563 5 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			485 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = OCC
+		add_core_of = FRA
+		add_core_of = NRM
+	}
+	
+	provinces={
+		485 6569 9434 11563 
+	}
+	manpower=251000
+	buildings_max_level_factor=1.000
+	state_category = city
+}

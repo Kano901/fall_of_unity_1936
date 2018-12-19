@@ -1,6 +1,6 @@
 ﻿capital = 652 #Magnitogorsk
 
-oob = "ORE_1936"
+oob = "KIR_1936"
 
 set_research_slots = 3
 
@@ -16,20 +16,20 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		marxist_leninist = { 
-			popularity = 8
+		despotism = { 
+			popularity = 18
 		}
 		
-		socialism = {
-			popularity = 84
+		fascism = {
+			popularity = 64
 		}
 		
-		anarchist_communism = {
-			popularity = 8
+		vanguard_communism = {
+			popularity = 18
 		}
 	}
 	
-	ruling_party = socialism
+	ruling_party = fascism
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
@@ -38,11 +38,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Worker's Council"
+	name = "Tsar Dmitri Pavlovich"
 	desc = ""
 	picture = "gfx/leaders/ANR/anarchyleader.png"
 	expire = "1953.3.1"
-	ideology = socialist
+	ideology = russian_fascism
 	traits = {
 		
 	}

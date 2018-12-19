@@ -1,0 +1,21 @@
+state={
+	id=943
+	name="STATE_943"
+	
+	history={
+		owner = FWA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		add_core_of = FWA
+	}
+	
+	provinces={
+		5039 8008 
+	}
+	manpower=725000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -77,6 +77,10 @@
  SLO_national_socialism_DEF:0 "Slovakia"
  SLO_national_socialism_ADJ:0 "Slovakian"
  
+ SLV_national_socialism:0 "Slovenia"
+ SLV_national_socialism_DEF:0 "Slovenia"
+ SLV_national_socialism_ADJ:0 "Slovene"
+ 
  UKR_national_socialism:0 "Greater State of Ukraine"
  UKR_national_socialism_DEF:0 "the Greater State of Ukraine"
  UKR_national_socialism_ADJ:0 "Ukrainian"
@@ -129,13 +133,13 @@
  UFA_national_socialism_DEF:0 "Ufa"
  UFA_national_socialism_ADJ:0 "Ufa"
  
- KIR_national_socialism:0 "Kirov"
- KIR_national_socialism_DEF:0 "Kirov"
- KIR_national_socialism_ADJ:0 "Kirov"
+ KIR_national_socialism:0 "Vyatka"
+ KIR_national_socialism_DEF:0 "Vyatka"
+ KIR_national_socialism_ADJ:0 "Vyatka"
  
  PRM_national_socialism:0 "Perm"
  PRM_national_socialism_DEF:0 "Perm"
- PRM_national_socialism_ADJ:0 "Perm"
+ PRM_national_socialism_ADJ:0 "Permian"
  
  CSK_national_socialism:0 "Cossack State"
  CSK_national_socialism_DEF:0 "the Cossack State"
@@ -361,6 +365,10 @@
  ICE_national_socialism_DEF:0 "Iceland"
  ICE_national_socialism_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_national_socialism:0 "Greater Albania"
+ ALB_national_socialism_DEF:0 "Greater Albania"
+ ALB_national_socialism_ADJ:0 "Albanian"
+ 
  ROM_national_socialism:0 "Tărâmul Românesc"
  ROM_national_socialism_DEF:0 "the Tărâmul Românesc"
  ROM_national_socialism_ADJ:0 "Romanian"
@@ -617,6 +625,10 @@
  NEP_national_socialism_DEF:0 "the Himalayan Empire"
  NEP_national_socialism_ADJ:0 "Himalayan"
  #Africa#
+ FWA_national_socialism:0 "French Colonial Authority"
+ FWA_national_socialism_DEF:0 "the French Colonial Authority"
+ FWA_national_socialism_ADJ:0 "French African"
+ 
  SAF_national_socialism:0 "Apartheid South Africa"
  SAF_national_socialism_DEF:0 "Apartheid South Africa"
  SAF_national_socialism_ADJ:0 "South African"
@@ -823,6 +835,12 @@
  SLO_fascism_DEF:0 "Slovakia"
  SLO_fascism_ADJ:0 "Slovakian"
  
+ SLV_fascism:0 "Slovenia"
+ SLV_fascism_DEF:0 "Slovenia"
+ SLV_fascism_ADJ:0 "Slovene"
+ 
+ 
+ 
  UKR_fascism:0 "Greater State of Ukraine"
  UKR_fascism_DEF:0 "the Greater State of Ukraine"
  UKR_fascism_ADJ:0 "Ukrainian"
@@ -875,13 +893,13 @@
  UFA_fascism_DEF:0 "Ufa"
  UFA_fascism_ADJ:0 "Ufa"
  
- KIR_fascism:0 "Kirov"
- KIR_fascism_DEF:0 "Kirov"
- KIR_fascism_ADJ:0 "Kirov"
+ KIR_fascism:0 "Vyatka"
+ KIR_fascism_DEF:0 "Vyatka"
+ KIR_fascism_ADJ:0 "Vyatka"
  
  PRM_fascism:0 "Perm"
  PRM_fascism_DEF:0 "Perm"
- PRM_fascism_ADJ:0 "Perm"
+ PRM_fascism_ADJ:0 "Permian"
  
  TAT_fascism:0 "Tatarstan"
  TAT_fascism_DEF:0 "Tatarstan"
@@ -1107,6 +1125,10 @@
  ICE_fascism_DEF:0 "Iceland"
  ICE_fascism_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_fascism:0 "Albanian State"
+ ALB_fascism_DEF:0 "the Albanian State"
+ ALB_fascism_ADJ:0 "Albanian"
+ 
  ROM_fascism:0 "Michael's Romania"
  ROM_fascism_DEF:0 "Michael's Romania"
  ROM_fascism_ADJ:0 "Romanian"
@@ -1363,6 +1385,10 @@
  NEP_fascism_DEF:0 "the Himalayan Empire"
  NEP_fascism_ADJ:0 "Himalayan"
  #Africa#
+ FWA_fascism:0 "French Colonial Authority"
+ FWA_fascism_DEF:0 "the French Colonial Authority"
+ FWA_fascism_ADJ:0 "French African"
+ 
  SAF_fascism:0 "Apartheid South Africa"
  SAF_fascism_DEF:0 "Apartheid South Africa"
  SAF_fascism_ADJ:0 "South African"
@@ -1569,6 +1595,10 @@
  SLO_despotism_DEF:0 "Slovakia"
  SLO_despotism_ADJ:0 "Slovakian"
  
+ SLV_despotism:0 "Slovenia"
+ SLV_despotism_DEF:0 "Slovenia"
+ SLV_despotism_ADJ:0 "Slovene"
+ 
  UKR_despotism:0 "Kingdom of Ukraine"
  UKR_despotism_DEF:0 "the Kingdom of Ukraine"
  UKR_despotism_ADJ:0 "Ukrainian"
@@ -1621,13 +1651,13 @@
  UFA_despotism_DEF:0 "Ufa"
  UFA_despotism_ADJ:0 "Ufa"
  
- KIR_despotism:0 "Kirov"
- KIR_despotism_DEF:0 "Kirov"
- KIR_despotism_ADJ:0 "Kirov"
+ KIR_despotism:0 "Vyatka"
+ KIR_despotism_DEF:0 "Vyatka"
+ KIR_despotism_ADJ:0 "Vyatka"
  
- PRM_despotism:0 "Perm"
- PRM_despotism_DEF:0 "Perm"
- PRM_despotism_ADJ:0 "Perm"
+ PRM_despotism:0 "Permian Patriarchate"
+ PRM_despotism_DEF:0 "Permian Patriarchate"
+ PRM_despotism_ADJ:0 "Permian"
  
  TAT_despotism:0 "Tatarstan"
  TAT_despotism_DEF:0 "Tatarstan"
@@ -1853,6 +1883,10 @@
  ICE_despotism_DEF:0 "Iceland"
  ICE_despotism_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_despotism:0 "Kingdom of Albania"
+ ALB_despotism_DEF:0 "the Kingdom of Albania"
+ ALB_despotism_ADJ:0 "Albanian"
+ 
  ROM_despotism:0 "Michael's Romania"
  ROM_despotism_DEF:0 "Michael's Romania"
  ROM_despotism_ADJ:0 "Romanian"
@@ -2025,8 +2059,8 @@
  LAO_despotism_DEF:0 "Laos"
  LAO_despotism_ADJ:0 "Laotian"
  
- MAL_despotism:0 "Malay Union"
- MAL_despotism_DEF:0 "the Malay Union"
+ MAL_despotism:0 "Sultanate Malay"
+ MAL_despotism_DEF:0 "the Sultanate Malay"
  MAL_despotism_ADJ:0 "Malaysian"
  
  SIA_despotism:0 "Kingdom of Siam"
@@ -2109,6 +2143,10 @@
  NEP_despotism_DEF:0 "the Himalayan Federation"
  NEP_despotism_ADJ:0 "Himalayan"
  #Africa#
+ FWA_despotism:0 "French Colonial Authority"
+ FWA_despotism_DEF:0 "the French Colonial Authority"
+ FWA_despotism_ADJ:0 "French African"
+ 
  SAF_despotism:0 "Union of South Africa"
  SAF_despotism_DEF:0 "the Union of South Africa"
  SAF_despotism_ADJ:0 "South African"
@@ -2315,6 +2353,10 @@
  SLO_authoritarian_democracy_DEF:0 "Slovakia"
  SLO_authoritarian_democracy_ADJ:0 "Slovakian"
  
+ SLV_authoritarian_democracy:0 "Slovenia"
+ SLV_authoritarian_democracy_DEF:0 "Slovenia"
+ SLV_authoritarian_democracy_ADJ:0 "Slovene"
+ 
  UKR_authoritarian_democracy:0 "Kingdom of Ukraine"
  UKR_authoritarian_democracy_DEF:0 "the Kingdom of Ukraine"
  UKR_authoritarian_democracy_ADJ:0 "Ukrainian"
@@ -2367,9 +2409,9 @@
  UFA_authoritarian_democracy_DEF:0 "Ufa"
  UFA_authoritarian_democracy_ADJ:0 "Ufa"
  
- KIR_authoritarian_democracy:0 "Kirov"
- KIR_authoritarian_democracy_DEF:0 "Kirov"
- KIR_authoritarian_democracy_ADJ:0 "Kirov"
+ KIR_authoritarian_democracy:0 "Vyatka"
+ KIR_authoritarian_democracy_DEF:0 "Vyatka"
+ KIR_authoritarian_democracy_ADJ:0 "Vyatka"
  
  PRM_authoritarian_democracy:0 "Perm"
  PRM_authoritarian_democracy_DEF:0 "Perm"
@@ -2599,6 +2641,10 @@
  ICE_authoritarian_democracy_DEF:0 "Iceland"
  ICE_authoritarian_democracy_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_authoritarian_democracy:0 "Kingdom of Albania"
+ ALB_authoritarian_democracy_DEF:0 "the Kingdom of Albania"
+ ALB_authoritarian_democracy_ADJ:0 "Albanian"
+ 
  ROM_authoritarian_democracy:0 "Michael's Romania"
  ROM_authoritarian_democracy_DEF:0 "Michael's Romania"
  ROM_authoritarian_democracy_ADJ:0 "Romanian"
@@ -2771,8 +2817,8 @@
  LAO_authoritarian_democracy_DEF:0 "Laos"
  LAO_authoritarian_democracy_ADJ:0 "Laotian"
  
- MAL_authoritarian_democracy:0 "Malay Union"
- MAL_authoritarian_democracy_DEF:0 "the Malay Union"
+ MAL_authoritarian_democracy:0 "Sultanate of Malay"
+ MAL_authoritarian_democracy_DEF:0 "the Sultanate of Malay"
  MAL_authoritarian_democracy_ADJ:0 "Malaysian"
  
  SIA_authoritarian_democracy:0 "Kingdom of Siam"
@@ -2855,6 +2901,10 @@
  NEP_authoritarian_democracy_DEF:0 "the Himalayan Federation"
  NEP_authoritarian_democracy_ADJ:0 "Himalayan"
  #Africa#
+ FWA_authoritarian_democracy:0 "French Colonial Authority"
+ FWA_authoritarian_democracy_DEF:0 "the French Colonial Authority"
+ FWA_authoritarian_democracy_ADJ:0 "French African"
+ 
  SAF_authoritarian_democracy:0 "Union of South Africa"
  SAF_authoritarian_democracy_DEF:0 "the Union of South Africa"
  SAF_authoritarian_democracy_ADJ:0 "South African"
@@ -3061,6 +3111,10 @@
  SLO_vanguard_communism_DEF:0 "the Slovakian Socialist Republic"
  SLO_vanguard_communism_ADJ:0 "Slovakian"
  
+ SLV_vanguard_communism:0 "Slovene Socialist Republic"
+ SLV_vanguard_communism_DEF:0 "the Slovene Socialist Republic"
+ SLV_vanguard_communism_ADJ:0 "Slovene"
+ 
  UKR_vanguard_communism:0 "Ukrainian People's State"
  UKR_vanguard_communism_DEF:0 "the Ukrainian People's State"
  UKR_vanguard_communism_ADJ:0 "Ukrainian"
@@ -3113,9 +3167,9 @@
  UFA_vanguard_communism_DEF:0 "Ufa"
  UFA_vanguard_communism_ADJ:0 "Ufa"
  
- KIR_vanguard_communism:0 "Kirov"
- KIR_vanguard_communism_DEF:0 "Kirov"
- KIR_vanguard_communism_ADJ:0 "Kirov"
+ KIR_vanguard_communism:0 "Vyatka"
+ KIR_vanguard_communism_DEF:0 "Vyatka"
+ KIR_vanguard_communism_ADJ:0 "Vyatka"
  
  PRM_vanguard_communism:0 "Perm"
  PRM_vanguard_communism_DEF:0 "Perm"
@@ -3345,6 +3399,10 @@
  ICE_vanguard_communism_DEF:0 "Iceland"
  ICE_vanguard_communism_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_vanguard_communism:0 "Albanian People's Republic"
+ ALB_vanguard_communism_DEF:0 "the Albanian People's Republic"
+ ALB_vanguard_communism_ADJ:0 "Albanian"
+ 
  ROM_vanguard_communism:0 "Romanian Vanguardist Union"
  ROM_vanguard_communism_DEF:0 "the Romanian Vanguardist Union"
  ROM_vanguard_communism_ADJ:0 "Romanian"
@@ -3601,6 +3659,10 @@
  NEP_vanguard_communism_DEF:0 "the Himalayan Commune"
  NEP_vanguard_communism_ADJ:0 "Himalayan"
  #Africa#
+ FWA_vanguard_communism:0 "West African Commonwealth"
+ FWA_vanguard_communism_DEF:0 "the West African Commonwealth"
+ FWA_vanguard_communism_ADJ:0 "West African"
+ 
  SAF_vanguard_communism:0 "Cape Commune"
  SAF_vanguard_communism_DEF:0 "the Cape Commune"
  SAF_vanguard_communism_ADJ:0 "South African"
@@ -3807,6 +3869,10 @@
  SLO_socialism_DEF:0 "Slovakia"
  SLO_socialism_ADJ:0 "Slovakian"
  
+ SLV_socialism:0 "Slovene Socialist Republic"
+ SLV_socialism_DEF:0 "the Slovene Socialist Republic"
+ SLV_socialism_ADJ:0 "Slovene"
+ 
  UKR_socialism:0 "People's Republic of Ukraine"
  UKR_socialism_DEF:0 "the People's Republic of Ukraine"
  UKR_socialism_ADJ:0 "Ukrainian"
@@ -3859,9 +3925,9 @@
  UFA_socialism_DEF:0 "Ufa"
  UFA_socialism_ADJ:0 "Ufa"
  
- KIR_socialism:0 "Kirov"
- KIR_socialism_DEF:0 "Kirov"
- KIR_socialism_ADJ:0 "Kirov"
+ KIR_socialism:0 "Vyatka"
+ KIR_socialism_DEF:0 "Vyatka"
+ KIR_socialism_ADJ:0 "Vyatka"
  
  PRM_socialism:0 "Perm"
  PRM_socialism_DEF:0 "Perm"
@@ -4091,6 +4157,10 @@
  ICE_socialism_DEF:0 "Iceland"
  ICE_socialism_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_socialism:0 "Albanian Republic"
+ ALB_socialism_DEF:0 "the Albanian Republic"
+ ALB_socialism_ADJ:0 "Albanian"
+ 
  ROM_socialism:0 "Republican Romania"
  ROM_socialism_DEF:0 "Republican Romania"
  ROM_socialism_ADJ:0 "Romanian"
@@ -4347,6 +4417,10 @@
  NEP_socialism_DEF:0 "the Himalayan Republic"
  NEP_socialism_ADJ:0 "Himalayan"
  #Africa#
+ FWA_socialism:0 "West African Commonwealth"
+ FWA_socialism_DEF:0 "the West African Commonwealth"
+ FWA_socialism_ADJ:0 "West African"
+ 
  SAF_socialism:0 "Union of South Africa"
  SAF_socialism_DEF:0 "the Union of South Africa"
  SAF_socialism_ADJ:0 "South African"
@@ -4553,6 +4627,10 @@
  SLO_marxist_leninist_DEF:0 "Slovakia"
  SLO_marxist_leninist_ADJ:0 "Slovakian"
  
+ SLV_marxist_leninist:0 "Slovene Socialist Republic"
+ SLV_marxist_leninist_DEF:0 "the Slovene Socialist Republic"
+ SLV_marxist_leninist_ADJ:0 "Slovene"
+ 
  UKR_marxist_leninist:0 "People's Republic of Ukraine"
  UKR_marxist_leninist_DEF:0 "the People's Republic of Ukraine"
  UKR_marxist_leninist_ADJ:0 "Ukrainian"
@@ -4605,9 +4683,9 @@
  UFA_marxist_leninist_DEF:0 "Ufa"
  UFA_marxist_leninist_ADJ:0 "Ufa"
  
- KIR_marxist_leninist:0 "Kirov"
- KIR_marxist_leninist_DEF:0 "Kirov"
- KIR_marxist_leninist_ADJ:0 "Kirov"
+ KIR_marxist_leninist:0 "Vyatka"
+ KIR_marxist_leninist_DEF:0 "Vyatka"
+ KIR_marxist_leninist_ADJ:0 "Vyatka"
  
  PRM_marxist_leninist:0 "Perm"
  PRM_marxist_leninist_DEF:0 "Perm"
@@ -4837,6 +4915,10 @@
  ICE_marxist_leninist_DEF:0 "Iceland"
  ICE_marxist_leninist_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_marxist_leninist:0 "Albanian People's Republic"
+ ALB_marxist_leninist_DEF:0 "the Albanian People's Republic"
+ ALB_marxist_leninist_ADJ:0 "Albanian"
+ 
  ROM_marxist_leninist:0 "Communist Romania"
  ROM_marxist_leninist_DEF:0 "Communist Romania"
  ROM_marxist_leninist_ADJ:0 "Romanian"
@@ -5093,6 +5175,10 @@
  NEP_marxist_leninist_DEF:0 "the Himalayan Republic"
  NEP_marxist_leninist_ADJ:0 "Himalayan"
  #Africa#
+ FWA_marxist_leninist:0 "West African Commonwealth"
+ FWA_marxist_leninist_DEF:0 "the West African Commonwealth"
+ FWA_marxist_leninist_ADJ:0 "West African"
+ 
  SAF_marxist_leninist:0 "Union of South Africa"
  SAF_marxist_leninist_DEF:0 "the Union of South Africa"
  SAF_marxist_leninist_ADJ:0 "South African"
@@ -5299,6 +5385,10 @@
  SLO_anarchist_communism_DEF:0 "Slovakia"
  SLO_anarchist_communism_ADJ:0 "Slovakian"
  
+ SLV_anarchist_communism:0 "Slovene Commune"
+ SLV_anarchist_communism_DEF:0 "the Slovene Commune"
+ SLV_anarchist_communism_ADJ:0 "Slovene"
+ 
  UKR_anarchist_communism:0 "Free Territory of Ukraine"
  UKR_anarchist_communism_DEF:0 "the Free Territory of Ukraine"
  UKR_anarchist_communism_ADJ:0 "Ukrainian"
@@ -5351,9 +5441,9 @@
  UFA_anarchist_communism_DEF:0 "Ufa"
  UFA_anarchist_communism_ADJ:0 "Ufa"
  
- KIR_anarchist_communism:0 "Kirov"
- KIR_anarchist_communism_DEF:0 "Kirov"
- KIR_anarchist_communism_ADJ:0 "Kirov"
+ KIR_anarchist_communism:0 "Vyatka"
+ KIR_anarchist_communism_DEF:0 "Vyatka"
+ KIR_anarchist_communism_ADJ:0 "Vyatka"
  
  PRM_anarchist_communism:0 "Perm"
  PRM_anarchist_communism_DEF:0 "Perm"
@@ -5583,6 +5673,10 @@
  ICE_anarchist_communism_DEF:0 "Iceland"
  ICE_anarchist_communism_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_anarchist_communism:0 "Albanian Commune"
+ ALB_anarchist_communism_DEF:0 "the Albanian Commune"
+ ALB_anarchist_communism_ADJ:0 "Albanian"
+ 
  ROM_anarchist_communism:0 "Anarchist Romania"
  ROM_anarchist_communism_DEF:0 "Anarchist Romania"
  ROM_anarchist_communism_ADJ:0 "Romanian"
@@ -5839,6 +5933,10 @@
  NEP_anarchist_communism_DEF:0 "the Himalayan Republic"
  NEP_anarchist_communism_ADJ:0 "Himalayan"
  #Africa#
+ FWA_anarchist_communism:0 "West African Commonwealth"
+ FWA_anarchist_communism_DEF:0 "the West African Commonwealth"
+ FWA_anarchist_communism_ADJ:0 "West African"
+ 
  SAF_anarchist_communism:0 "Union of South Africa"
  SAF_anarchist_communism_DEF:0 "the Union of South Africa"
  SAF_anarchist_communism_ADJ:0 "South African"
@@ -6045,6 +6143,10 @@
  SLO_conservatism_DEF:0 "Slovakia"
  SLO_conservatism_ADJ:0 "Slovakian"
  
+ SLV_conservatism:0 "Slovenia"
+ SLV_conservatism_DEF:0 "Slovenia"
+ SLV_conservatism_ADJ:0 "Slovene"
+ 
  UKR_conservatism:0 "Federation of Ukraine"
  UKR_conservatism_DEF:0 "the Federation of Ukraine"
  UKR_conservatism_ADJ:0 "Ukrainian"
@@ -6097,9 +6199,9 @@
  UFA_conservatism_DEF:0 "Ufa"
  UFA_conservatism_ADJ:0 "Ufa"
  
- KIR_conservatism:0 "Kirov"
- KIR_conservatism_DEF:0 "Kirov"
- KIR_conservatism_ADJ:0 "Kirov"
+ KIR_conservatism:0 "Vyatka"
+ KIR_conservatism_DEF:0 "Vyatka"
+ KIR_conservatism_ADJ:0 "Vyatka"
  
  PRM_conservatism:0 "Perm"
  PRM_conservatism_DEF:0 "Perm"
@@ -6329,6 +6431,10 @@
  ICE_conservatism_DEF:0 "Iceland"
  ICE_conservatism_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_conservatism:0 "Albanian Republic"
+ ALB_conservatism_DEF:0 "the Albanian Republic"
+ ALB_conservatism_ADJ:0 "Albanian"
+ 
  ROM_conservatism:0 "Michael's Romania"
  ROM_conservatism_DEF:0 "Michael's Romania"
  ROM_conservatism_ADJ:0 "Romanian"
@@ -6585,6 +6691,10 @@
  NEP_conservatism_DEF:0 "the Himalayan Federation"
  NEP_conservatism_ADJ:0 "Himalayan"
  #Africa#
+ FWA_conservatism:0 "French Colonial Authority"
+ FWA_conservatism_DEF:0 "the French Colonial Authority"
+ FWA_conservatism_ADJ:0 "French African"
+ 
  SAF_conservatism:0 "Union of South Africa"
  SAF_conservatism_DEF:0 "the Union of South Africa"
  SAF_conservatism_ADJ:0 "South African"
@@ -6791,6 +6901,10 @@
  SLO_social_liberalism_DEF:0 "Slovakia"
  SLO_social_liberalism_ADJ:0 "Slovakian"
  
+ SLV_social_liberalism:0 "Slovenia"
+ SLV_social_liberalism_DEF:0 "Slovenia"
+ SLV_social_liberalism_ADJ:0 "Slovene"
+ 
  UKR_social_liberalism:0 "Federation of Ukraine"
  UKR_social_liberalism_DEF:0 "the Federation of Ukraine"
  UKR_social_liberalism_ADJ:0 "Ukrainian"
@@ -6843,9 +6957,9 @@
  UFA_social_liberalism_DEF:0 "Ufa"
  UFA_social_liberalism_ADJ:0 "Ufa"
  
- KIR_social_liberalism:0 "Kirov"
- KIR_social_liberalism_DEF:0 "Kirov"
- KIR_social_liberalism_ADJ:0 "Kirov"
+ KIR_social_liberalism:0 "Vyatka"
+ KIR_social_liberalism_DEF:0 "Vyatka"
+ KIR_social_liberalism_ADJ:0 "Vyatka"
  
  PRM_social_liberalism:0 "Perm"
  PRM_social_liberalism_DEF:0 "Perm"
@@ -7075,6 +7189,10 @@
  ICE_social_liberalism_DEF:0 "Iceland"
  ICE_social_liberalism_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_social_liberalism:0 "Albanian Republic"
+ ALB_social_liberalism_DEF:0 "the Albanian Republic"
+ ALB_social_liberalism_ADJ:0 "Albanian"
+ 
  ROM_social_liberalism:0 "Michael's Romania"
  ROM_social_liberalism_DEF:0 "Michael's Romania"
  ROM_social_liberalism_ADJ:0 "Romanian"
@@ -7331,6 +7449,10 @@
  NEP_social_liberalism_DEF:0 "the Himalayan Federation"
  NEP_social_liberalism_ADJ:0 "Himalayan"
  #Africa#
+ FWA_social_liberalism:0 "French Colonial Authority"
+ FWA_social_liberalism_DEF:0 "the French Colonial Authority"
+ FWA_social_liberalism_ADJ:0 "French African"
+ 
  SAF_social_liberalism:0 "Union of South Africa"
  SAF_social_liberalism_DEF:0 "the Union of South Africa"
  SAF_social_liberalism_ADJ:0 "South African"
@@ -7537,6 +7659,10 @@
  SLO_market_liberalism_DEF:0 "Slovakia"
  SLO_market_liberalism_ADJ:0 "Slovakian"
  
+ SLV_market_liberalism:0 "Slovenia"
+ SLV_market_liberalism_DEF:0 "Slovenia"
+ SLV_market_liberalism_ADJ:0 "Slovene"
+ 
  UKR_market_liberalism:0 "Federation of Ukraine"
  UKR_market_liberalism_DEF:0 "the Federation of Ukraine"
  UKR_market_liberalism_ADJ:0 "Ukrainian"
@@ -7589,9 +7715,9 @@
  UFA_market_liberalism_DEF:0 "Ufa"
  UFA_market_liberalism_ADJ:0 "Ufa"
  
- KIR_market_liberalism:0 "Kirov"
- KIR_market_liberalism_DEF:0 "Kirov"
- KIR_market_liberalism_ADJ:0 "Kirov"
+ KIR_market_liberalism:0 "Vyatka"
+ KIR_market_liberalism_DEF:0 "Vyatka"
+ KIR_market_liberalism_ADJ:0 "Vyatka"
  
  PRM_market_liberalism:0 "Perm"
  PRM_market_liberalism_DEF:0 "Perm"
@@ -7821,6 +7947,10 @@
  ICE_market_liberalism_DEF:0 "Iceland"
  ICE_market_liberalism_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_market_liberalism:0 "Albanian Republic"
+ ALB_market_liberalism_DEF:0 "the Albanian Republic"
+ ALB_market_liberalism_ADJ:0 "Albanian"
+ 
  ROM_market_liberalism:0 "Michael's Romania"
  ROM_market_liberalism_DEF:0 "Michael's Romania"
  ROM_market_liberalism_ADJ:0 "Romanian"
@@ -8077,6 +8207,10 @@
  NEP_market_liberalism_DEF:0 "the Himalayan Federation"
  NEP_market_liberalism_ADJ:0 "Himalayan"
  #Africa#
+ FWA_market_liberalism:0 "French Colonial Authority"
+ FWA_market_liberalism_DEF:0 "the French Colonial Authority"
+ FWA_market_liberalism_ADJ:0 "French African"
+ 
  SAF_market_liberalism:0 "Union of South Africa"
  SAF_market_liberalism_DEF:0 "the Union of South Africa"
  SAF_market_liberalism_ADJ:0 "South African"
@@ -8283,6 +8417,10 @@
  SLO_social_democracy_DEF:0 "Slovakia"
  SLO_social_democracy_ADJ:0 "Slovakian"
  
+ SLV_social_democracy:0 "Slovenia"
+ SLV_social_democracy_DEF:0 "Slovenia"
+ SLV_social_democracy_ADJ:0 "Slovene"
+ 
  UKR_social_democracy:0 "Federation of Ukraine"
  UKR_social_democracy_DEF:0 "the Federation of Ukraine"
  UKR_social_democracy_ADJ:0 "Ukrainian"
@@ -8335,9 +8473,9 @@
  UFA_social_democracy_DEF:0 "Ufa"
  UFA_social_democracy_ADJ:0 "Ufa"
  
- KIR_social_democracy:0 "Kirov"
- KIR_social_democracy_DEF:0 "Kirov"
- KIR_social_democracy_ADJ:0 "Kirov"
+ KIR_social_democracy:0 "Vyatka"
+ KIR_social_democracy_DEF:0 "Vyatka"
+ KIR_social_democracy_ADJ:0 "Vyatka"
  
  PRM_social_democracy:0 "Perm"
  PRM_social_democracy_DEF:0 "Perm"
@@ -8567,6 +8705,10 @@
  ICE_social_democracy_DEF:0 "Iceland"
  ICE_social_democracy_ADJ:0 "Icelandic"
  #Balkans#
+ ALB_social_democracy:0 "Albanian Republic"
+ ALB_social_democracy_DEF:0 "the Albanian Republic"
+ ALB_social_democracy_ADJ:0 "Albanian"
+ 
  ROM_social_democracy:0 "Michael's Romania"
  ROM_social_democracy_DEF:0 "Michael's Romania"
  ROM_social_democracy_ADJ:0 "Romanian"
@@ -8823,6 +8965,10 @@
  NEP_social_democracy_DEF:0 "the Himalayan Federation"
  NEP_social_democracy_ADJ:0 "Himalayan"
  #Africa#
+ FWA_social_democracy:0 "French Colonial Authority"
+ FWA_social_democracy_DEF:0 "the French Colonial Authority"
+ FWA_social_democracy_ADJ:0 "French African"
+ 
  SAF_social_democracy:0 "Union of South Africa"
  SAF_social_democracy_DEF:0 "the Union of South Africa"
  SAF_social_democracy_ADJ:0 "South African"

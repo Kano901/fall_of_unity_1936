@@ -24,6 +24,12 @@ form_greater_german_reich_category = {
 			has_full_control_of_state = 50
 			has_full_control_of_state = 52
 			has_full_control_of_state = 59
+			owns_state = 64
+			owns_state = 51
+			owns_state = 5
+			owns_state = 50
+			owns_state = 52
+			owns_state = 59
 			all_owned_state = {
 				is_fully_controlled_by = ROOT
 			}
@@ -72,6 +78,8 @@ form_greater_soviet_category = {
 			is_subject = no
 			has_full_control_of_state = 195
 			has_full_control_of_state = 219
+			owns_state = 195
+			owns_state = 219
 			all_owned_state = {
 				is_fully_controlled_by = ROOT
 			}
@@ -113,6 +121,8 @@ form_greater_russia_category = {
 			is_subject = no
 			has_full_control_of_state = 195
 			has_full_control_of_state = 219
+			owns_state = 195
+			owns_state = 219
 			all_owned_state = {
 				is_fully_controlled_by = ROOT
 			}
@@ -213,6 +223,10 @@ form_britain_category = {
 			has_full_control_of_state = 121
 			has_full_control_of_state = 131
 			has_full_control_of_state = 786
+			owns_state = 126
+			owns_state = 121
+			owns_state = 131
+			owns_state = 786
 			all_owned_state = {
 				is_fully_controlled_by = ROOT
 			}
@@ -235,6 +249,50 @@ form_britain_category = {
 			hidden_effect = {
 				set_global_flag = form_britain_flag
 				news_event = { id = britain_unity_news.1 hours = 6 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_holy_russia_category = {
+
+	form_holy_russia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = PRM
+			has_war = no
+		}
+
+		available = {
+			is_subject = no
+			has_full_control_of_state = 219
+			has_full_control_of_state = 398
+			owns_state = 219
+			owns_state = 398
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		visible = {
+			original_tag = PRM
+			NOT = { has_global_flag = form_holy_russia_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = PRM_UNIFIED
+			set_capital = 219
+			add_state_core = 219
+			add_state_core = 195
+			hidden_effect = {
+				set_global_flag = form_holy_russia_flag
+				news_event = { id = russia_news.3 hours = 6 }
 			}
 		}
 

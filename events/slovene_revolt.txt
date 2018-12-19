@@ -1,0 +1,111 @@
+add_namespace = slovene_revolt
+
+country_event = {
+	id = slovene_revolt.1
+	title = slovene_revolt.1.t
+	desc = slovene_revolt.1.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = no
+	
+	trigger = {
+		tag = AUS
+		AND = {
+			has_political_power < -50
+			has_stability < 50
+		}
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = { # not the Slavs!
+		name = slovene_revolt.1.a
+		ai_chance = { factor = 90 }
+		AUS = {
+			country_event = { days = 7 id = slovene_revolt.2 }
+			add_war_support = -0.1
+			add_political_power = -100
+		}
+	}
+}
+
+country_event = {
+	id = slovene_revolt.2
+	title = slovene_revolt.2.t
+	desc = slovene_revolt.2.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # For the Empire!
+		name = slovene_revolt.2.a
+		ai_chance = { factor = 90 }
+		AUS = {
+			country_event = { days = 20 id = slovene_revolt.3 }
+			SLV = {
+				add_state_core = 930
+				transfer_state = 930 
+				add_state_core = 926
+				transfer_state = 926
+				add_state_core = 855
+				transfer_state = 855
+			}
+			SLV = {
+				country_event = { days = 1 id = slovene_revolt.4 }
+			}
+		}
+	}
+	
+	option = { # For Freedom!
+		name = slovene_revolt.2.b
+		ai_chance = { factor = 90 }
+		AUS = {
+			country_event = { days = 20 id = slovene_revolt.3 }
+			SLV = { change_tag_from = ROOT }
+			SLV = {
+				add_state_core = 930
+				transfer_state = 930 
+				add_state_core = 926
+				transfer_state = 926
+				add_state_core = 855
+				transfer_state = 855
+			}
+			SLV = {
+				country_event = { days = 1 id = slovene_revolt.4 }
+			}
+		}
+	}
+}
+
+news_event = {
+	id = slovene_revolt.3
+	title = slovene_revolt.3.t
+	desc = slovene_revolt.3.d
+	picture = GFX_news_event_016
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Revolution!
+		name = slovene_revolt.3.a
+		trigger = { TAG = SLV }
+	}
+	
+	option = { # For Empire and Kaiser!
+		name = slovene_revolt.3.b
+		trigger = { TAG = AUS }
+	}
+	
+	option = { # Troubling
+		name = slovene_revolt.3.c
+		trigger = {
+			NOT = {
+				OR = {
+					TAG = AUS
+					TAG = SLV
+				}
+			}
+		}
+	}
+}

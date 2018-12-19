@@ -1,0 +1,22 @@
+state={
+	id=933
+	name="STATE_933"
+	
+	history={
+		owner = ICH
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		
+		add_core_of = VIN
+		add_core_of = ICH
+	}
+	
+	provinces={
+		1248 1302 4255 4379 4397 7229 7280 9988 10016 10137 10180 10309 11909 11936 12297 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+}

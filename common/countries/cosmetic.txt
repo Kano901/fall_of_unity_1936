@@ -196,3 +196,7 @@ ENG_UNIFIED = {
 	color = rgb { 193 26 14 }
 	color_ui = rgb { 193 26 14 }
 }
+PRM_UNIFIED = {
+	color = rgb { 6 104 0 }
+	color_ui = rgb { 6 104 0 }
+}

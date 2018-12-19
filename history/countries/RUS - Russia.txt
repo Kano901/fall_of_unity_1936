@@ -44,7 +44,7 @@ set_politics = {
 
 	parties = {
 		social_liberalism = { 
-			popularity = 42
+			popularity = 32
 		}
 
 		fascism = {
@@ -72,7 +72,7 @@ set_politics = {
 		}
 		
 		conservatism = {
-			popularity = 10
+			popularity = 20
 		}
 	}
 	ruling_party = social_liberalism

@@ -16,20 +16,20 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		marxist_leninist = { 
-			popularity = 8
+		authoritarian_democracy = { 
+			popularity = 13
 		}
 		
-		socialism = {
-			popularity = 84
+		despotism = {
+			popularity = 64
 		}
 		
-		anarchist_communism = {
-			popularity = 8
+		conservatism = {
+			popularity = 23
 		}
 	}
 	
-	ruling_party = socialism
+	ruling_party = despotism
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
@@ -38,11 +38,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Worker's Council"
+	name = "Patriarch Sergius"
 	desc = ""
 	picture = "gfx/leaders/ANR/anarchyleader.png"
 	expire = "1953.3.1"
-	ideology = socialist
+	ideology = theocracy
 	traits = {
 		
 	}

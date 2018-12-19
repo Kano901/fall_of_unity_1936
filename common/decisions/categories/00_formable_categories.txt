@@ -37,3 +37,9 @@ form_britain_category = {
 	icon = generic_formable_nations
 	
 }
+
+form_holy_russia_category = {
+	
+	icon = generic_formable_nations
+
+}

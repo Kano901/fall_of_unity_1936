@@ -193,4 +193,7 @@ CSK = "countries/Cossackia.txt"
 PRM = "countries/Perm.txt"
 KIR = "countries/Kirov.txt"
 UFA = "countries/Ufa.txt"
+SLV = "countries/Slovenia.txt"
+FWA = "countries/French-Africa.txt"
+MAU = "countries/Mauritania.txt"
 

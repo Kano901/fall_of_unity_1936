@@ -1,13 +1,13 @@
-state= {
+
+state={
 	id=123
 	name="STATE_123"
-	manpower = 1221013
-	
-	state_category = city
 
-	history= {
+	history={
 		owner = COR
-		victory_points = { 540 10 }
+		victory_points = {
+			540 10 
+		}
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
@@ -15,14 +15,19 @@ state= {
 			air_base = 6
 			540 = {
 				naval_base = 8
+
 			}
 
 		}
 		add_core_of = ENG
 		add_core_of = COR
+
 	}
 
-	provinces= {
-		540 3422 3463 6526 9562 11406
- 	}
+	provinces={
+		540 3422 3463 6526 9484 9562 11406 
+	}
+	manpower=1221013
+	buildings_max_level_factor=1.000
+	state_category=city
 }

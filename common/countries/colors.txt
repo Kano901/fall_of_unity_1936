@@ -851,3 +851,11 @@ PRM = {
 	color = rgb { 178 147 69 }
 	color_ui = rgb { 178 147 69 }
 }
+SLV = {
+	color = rgb { 214 10 10 }
+	color_ui = rgb { 214 10 10 }
+}
+FWA = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 57 113 228 }
+}
