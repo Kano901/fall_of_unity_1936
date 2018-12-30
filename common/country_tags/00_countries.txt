@@ -196,4 +196,7 @@ UFA = "countries/Ufa.txt"
 SLV = "countries/Slovenia.txt"
 FWA = "countries/French-Africa.txt"
 MAU = "countries/Mauritania.txt"
+TUA = "countries/Tuareg-Federation.txt"
+SOM = "countries/Somalia.txt"
+PWA = "countries/Portuguese-Africa"
 

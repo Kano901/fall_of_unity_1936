@@ -22,7 +22,7 @@ country_event = {
 		name = slovene_revolt.1.a
 		ai_chance = { factor = 90 }
 		AUS = {
-			country_event = { days = 7 id = slovene_revolt.2 }
+			country_event = { days = 10 id = slovene_revolt.2 }
 			add_war_support = -0.1
 			add_political_power = -100
 		}
@@ -41,7 +41,7 @@ country_event = {
 		name = slovene_revolt.2.a
 		ai_chance = { factor = 90 }
 		AUS = {
-			country_event = { days = 20 id = slovene_revolt.3 }
+			country_event = { days = 1 id = slovene_revolt.3 }
 			SLV = {
 				add_state_core = 930
 				transfer_state = 930 
@@ -60,7 +60,7 @@ country_event = {
 		name = slovene_revolt.2.b
 		ai_chance = { factor = 90 }
 		AUS = {
-			country_event = { days = 20 id = slovene_revolt.3 }
+			country_event = { days = 1 id = slovene_revolt.3 }
 			SLV = { change_tag_from = ROOT }
 			SLV = {
 				add_state_core = 930
@@ -71,7 +71,7 @@ country_event = {
 				transfer_state = 855
 			}
 			SLV = {
-				country_event = { days = 1 id = slovene_revolt.4 }
+				country_event = { days = 3 id = slovene_revolt.4 }
 			}
 		}
 	}
