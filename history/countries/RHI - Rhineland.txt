@@ -42,36 +42,48 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 12
+		socialism = { 
+			popularity = 27
 		}
 
-		fascism = {
-			popularity = 1
+		marxist_leninist = {
+			popularity = 34
 		}
 		
-		communism = {
-			popularity = 87
+		vanguard_communism = {
+			popularity = 13
 		}
 		
-		neutrality = { 
-			popularity = 0
+		anarchist_communism = { 
+			popularity = 6
+		}
+		
+		national_socialism = {
+			popularity = 6
+		}
+		
+		social_liberalism = {
+			popularity = 3
+		}
+		
+		social_democracy = {
+			popularity = 11
 		}
 	}
-	ruling_party = communism
+	ruling_party = marxist_leninist
 	last_election = "1935.6.9"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 	
 }
 set_stability = 0.75
 
 create_country_leader = {
-	name = ""
+	name = "Karl Liebknecht"
 	desc = ""
 	picture = ".dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = socialist
 	traits = {
 		#
 	}
@@ -82,6 +94,17 @@ create_country_leader = {
 	desc = ""
 	picture = ".dds"
 	expire = "1965.1.1"
+	ideology = vanguardist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ernst Thalmann"
+	desc = ""
+	picture = "Thalmann.png"
+	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
 		#
@@ -89,22 +112,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
+	name = "Rhenish Worker's Council"
 	desc = ""
-	picture = ".dds"
+	picture = "council.png"
 	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = ""
-	picture = ".dds"
-	expire = "1965.1.1"
-	ideology = nazism
+	ideology = german_anarchy
 	traits = {
 		#
 	}

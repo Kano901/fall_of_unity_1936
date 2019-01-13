@@ -1,6 +1,6 @@
 ﻿capital = 172
 
-oob = "BAV_1936"
+oob = "NAV_1936"
 
 set_research_slots = 3
 set_stability = 0.8
@@ -31,19 +31,35 @@ set_politics = {
 
 	parties = {
 		fascism = { 
-			popularity = 15
+			popularity = 5
 		}
 
-		neutrality = {
-			popularity = 80
+		authoritarian_democracy = {
+			popularity = 33
 		}
 		
-		democratic = {
-			popularity = 5
+		despotism = {
+			popularity = 21
+		}
+		
+		conservatism = {
+			popularity = 17
+		}
+		
+		social_liberalism = {
+			popularity = 14
+		}
+		
+		national_socialism = {
+			popularity = 3
+		}
+		
+		socialism = {
+			popularity = 7
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = authoritarian_democracy
 	last_election = "1932.4.24"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,7 +74,7 @@ create_country_leader = {
 	desc = ""
 	picture = "jose_aguirre.tga"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = auth_dem
 }
 
 

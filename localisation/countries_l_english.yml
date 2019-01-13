@@ -133,8 +133,8 @@
  UFA_national_socialism_DEF:0 "Ufa"
  UFA_national_socialism_ADJ:0 "Ufa"
  
- KIR_national_socialism:0 "Vyatka"
- KIR_national_socialism_DEF:0 "Vyatka"
+ KIR_national_socialism:0 "Tsardom of Vyatka"
+ KIR_national_socialism_DEF:0 "the Tsardom of Vyatka"
  KIR_national_socialism_ADJ:0 "Vyatka"
  
  PRM_national_socialism:0 "Perm"
@@ -893,8 +893,8 @@
  UFA_fascism_DEF:0 "Ufa"
  UFA_fascism_ADJ:0 "Ufa"
  
- KIR_fascism:0 "Vyatka"
- KIR_fascism_DEF:0 "Vyatka"
+ KIR_fascism:0 "Tsardom of Vyatka"
+ KIR_fascism_DEF:0 "the Tsardom of Vyatka"
  KIR_fascism_ADJ:0 "Vyatka"
  
  PRM_fascism:0 "Perm"
@@ -1651,8 +1651,8 @@
  UFA_despotism_DEF:0 "Ufa"
  UFA_despotism_ADJ:0 "Ufa"
  
- KIR_despotism:0 "Vyatka"
- KIR_despotism_DEF:0 "Vyatka"
+ KIR_despotism:0 "Tsardom of Vyatka"
+ KIR_despotism_DEF:0 "the Tsardom of Vyatka"
  KIR_despotism_ADJ:0 "Vyatka"
  
  PRM_despotism:0 "Permian Patriarchate"
@@ -2409,8 +2409,8 @@
  UFA_authoritarian_democracy_DEF:0 "Ufa"
  UFA_authoritarian_democracy_ADJ:0 "Ufa"
  
- KIR_authoritarian_democracy:0 "Vyatka"
- KIR_authoritarian_democracy_DEF:0 "Vyatka"
+ KIR_authoritarian_democracy:0 "Tsardom of Vyatka"
+ KIR_authoritarian_democracy_DEF:0 "the Tsardom of Vyatka"
  KIR_authoritarian_democracy_ADJ:0 "Vyatka"
  
  PRM_authoritarian_democracy:0 "Perm"
@@ -3059,8 +3059,8 @@
  BAW_vanguard_communism_DEF:0 "Baden-Württemburg"
  BAW_vanguard_communism_ADJ:0 "Württemburger"
  
- RHI_vanguard_communism:0 "Rhenish Worker's State"
- RHI_vanguard_communism_DEF:0 "the Rhenish Worker's State"
+ RHI_vanguard_communism:0 "Rhenish Democratic Republic"
+ RHI_vanguard_communism_DEF:0 "the Rhenish Democratic Republic"
  RHI_vanguard_communism_ADJ:0 "Rhenish"
  
  AUS_vanguard_communism:0 "Austrian Democratic Republic"
@@ -3167,8 +3167,8 @@
  UFA_vanguard_communism_DEF:0 "Ufa"
  UFA_vanguard_communism_ADJ:0 "Ufa"
  
- KIR_vanguard_communism:0 "Vyatka"
- KIR_vanguard_communism_DEF:0 "Vyatka"
+ KIR_vanguard_communism:0 "Tsardom of Vyatka"
+ KIR_vanguard_communism_DEF:0 "the Tsardom of Vyatka"
  KIR_vanguard_communism_ADJ:0 "Vyatka"
  
  PRM_vanguard_communism:0 "Perm"
@@ -4575,8 +4575,8 @@
  BAW_marxist_leninist_DEF:0 "Baden-Württemburg"
  BAW_marxist_leninist_ADJ:0 "Württemburger"
  
- RHI_marxist_leninist:0 "Rhenish Democratic Republic"
- RHI_marxist_leninist_DEF:0 "the Rhenish Democratic Republic"
+ RHI_marxist_leninist:0 "Rhenish Worker's State"
+ RHI_marxist_leninist_DEF:0 "the Rhenish Worker's State"
  RHI_marxist_leninist_ADJ:0 "Rhenish"
  
  AUS_marxist_leninist:0 "Austrian Democratic Republic"

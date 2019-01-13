@@ -1,0 +1,24 @@
+state={
+	id=956
+	name="STATE_956"
+	
+	history={
+		owner = CRI
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		
+		add_core_of = UKR
+		add_core_of = CRI
+		add_core_of = SOV
+		add_core_of = RUS
+	}
+	
+	provinces={
+		3409 6554 9531 11541 
+	}
+	manpower=232000
+	buildings_max_level_factor=1.000
+	state_category = town
+}

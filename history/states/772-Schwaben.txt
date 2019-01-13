@@ -1,0 +1,24 @@
+
+state={
+	id=772
+	name="STATE_772"
+
+	history={
+		owner = BAV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = BAV
+
+	}
+
+	provinces={
+		708 6540 9666 11638 
+	}
+	manpower=1072000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

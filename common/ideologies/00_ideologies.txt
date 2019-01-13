@@ -11,6 +11,8 @@ ideologies = {
 			}
 			nazbol = {
 			}
+			vyatkan_communism = {
+			}
 			
 		}
 		
