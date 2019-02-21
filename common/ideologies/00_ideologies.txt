@@ -444,6 +444,9 @@ ideologies = {
 			
 			fascist_monarchism = {
 			}
+			
+			iron_wolf = {
+			}
 		}
 		
 		dynamic_faction_names = {

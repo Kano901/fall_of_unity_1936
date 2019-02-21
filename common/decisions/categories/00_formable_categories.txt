@@ -14,6 +14,12 @@ form_greater_german_reich_category = {
 
 }
 
+form_south_german_reich_category = {
+
+	icon = generic_formable_nations
+	
+}
+
 form_greater_soviet_category = {
 
 	icon = generic_formable_nations

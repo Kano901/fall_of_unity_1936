@@ -8,274 +8,86 @@ music = {
 	}
 }
 
-# PEACE SONGS ##################
+# Germany ##################
+
 music = {
-	song = "general_peace_1"
-	
+	song = "ss-marschiert"
 	chance = {
 		modifier = {
 			factor = 1
-
-			has_war = no
-		}		
-	}	
-}
-
-music = {
-	song = "general_peace_2"
-	
-	chance = {
-		modifier = {
-			factor = 1
-
-			has_war = no
-		}		
-	}	
-}
-
-music = {
-	song = "general_peace_3"
-	
-	chance = {
-		modifier = {
-			factor = 1
-
-			has_war = no
+			
+			OR = {
+			tag = BAV
+			tag = SSS
+			}
 		}		
 	}
 }
 
 music = {
-	song = "allies_peace_1"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-			has_government = democratic
-		}		
-	}	
-}
-
-music = {
-	song = "allies_peace_2"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-			has_government = democratic
-		}		
-	}	
-}
-
-music = {
-	song = "axis_peace_1"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-			has_government = fascism
-		}		
-	}	
-}
-
-music = {
-	song = "axis_peace_2"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-			has_government = fascism
-		}		
-	}	
-}
-
-# WAR SONGS ####################
-
-music = {
-	song = "general_war_1"
-	
+	song = "westerwald_marsch"
 	chance = {
 		modifier = {
 			factor = 1
-
-			has_war = yes
+			
+			OR = {
+			tag = BAV
+			tag = SSS
+			tag = PRS
+			tag = BRB
+			tag = NOG
+			tag = SIL
+			}
 		}		
-	}	
+	}
 }
 
 music = {
-	song = "general_war_2"
-	
+	song = "alle-waffen-gegen-hitler"
 	chance = {
 		modifier = {
 			factor = 1
-
-			has_war = yes
-		}		
-	}	
+			
+			OR = {
+			tag = BAW
+			tag = RHI
+			}
+		}
+	}
 }
 
 music = {
-	song = "axis_war_1"
-	
+	song = "russlandlied"
 	chance = {
 		modifier = {
-			factor = 2
-
-			has_war = yes
-			has_government = fascism
-		}		
-	}	
+			factor = 1
+			
+			OR = {
+			tag = BAV
+			tag = PRS
+			tag = BRB
+			tag = NOG
+			tag = SSS
+			tag = SIL
+			}
+		}
+	}
 }
 
-music = {
-	song = "axis_war_2"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-			has_government = fascism
-		}		
-	}	
-}
+# Russian Provisional Government ########
 
 music = {
-	song = "axis_war_3"
-	
+	song = "shostakovich_waltz_no2"
 	chance = {
 		modifier = {
-			factor = 2
-
-			has_war = yes
-			has_government = fascism
+			factor = 1
+			
+			OR = {
+			tag = RUS
+			tag = CSK
+			tag = VOL
+			tag = SIB
+			}
 		}		
-	}	
-}
-
-music = {
-	song = "axis_war_4"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-			has_government = fascism
-		}		
-	}	
-}
-
-music = {
-	song = "allies_war_1"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-			has_government = democratic
-		}		
-	}	
-}
-
-music = {
-	song = "allies_war_2"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-			has_government = democratic
-		}		
-	}	
-}
-
-music = {
-	song = "comintern_peace_1"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-			has_government = communism
-		}		
-	}	
-}
-
-music = {
-	song = "comintern_peace_2"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-			has_government = communism
-		}		
-	}	
-}
-
-music = {
-	song = "comintern_peace_3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-			has_government = communism
-		}		
-	}	
-}
-
-
-music = {
-	song = "comintern_war_1"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-			has_government = communism
-		}		
-	}	
-}
-
-music = {
-	song = "comintern_war_2"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-			has_government = communism
-		}		
-	}	
-}
-
-music = {
-	song = "comintern_war_3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-			has_government = communism
-		}		
-	}	
+	}
 }

@@ -6,14 +6,7 @@ form_greater_german_reich_category = {
 
 		allowed = {
 		
-			OR = {
 			original_tag = BAV
-			original_tag = RHI
-			original_tag = NOG
-			original_tag = PRS
-			original_tag = BRB
-			original_tag = BAW
-			}
 		}
 
 		available = {
@@ -38,23 +31,64 @@ form_greater_german_reich_category = {
 
 		visible = {
 			NOT = { has_global_flag = form_greater_german_reich_flag }
-			OR = {
-				original_tag = BAV
-				original_tag = RHI
-				original_tag = BAW
-				original_tag = NOG
-				original_tag = PRS
-				original_tag = BRB
-			}
+			has_global_flag = form_south_german_reich_flag
+			original_tag = BAV
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = GER_UNITED
-			set_province_name = { id = 6521 name = "Berlin" }
-			set_capital = 64
+			custom_effect_tooltip = GER_tooltip
 			hidden_effect = {
 				set_global_flag = form_greater_german_reich_flag
 				news_event = { id = german_unity_news.1 hours = 6 }
+				drop_cosmetic_tag = yes
+				set_cosmetic_tag = GER_UNITED
+				set_province_name = { id = 6521 name = "Berlin" }
+				set_capital = 64
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_south_german_reich_category = {
+
+	form_south_german_reich = {
+
+		icon = generic_form_nation
+
+		allowed = {
+		
+			original_tag = BAV
+		}
+
+		available = {
+			is_subject = no
+			has_full_control_of_state = 50
+			has_full_control_of_state = 783
+			owns_state = 783
+			owns_state = 50
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+			has_war = no
+		}
+
+		visible = {
+			NOT = { has_global_flag = form_south_german_reich_flag }
+			original_tag = BAV
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SGR_UNITED
+			custom_effect_tooltip = SGR_tooltip
+			hidden_effect = {
+				set_global_flag = form_south_german_reich_flag
+				news_event = { id = german_unity_news.2 hours = 6 }
+				add_state_core = 783
+				add_state_core = 50
 			}
 		}
 

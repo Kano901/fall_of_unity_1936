@@ -20,21 +20,30 @@ set_technology = {
 
 set_politics = {
 	parties = {
-		democratic = { 
-			popularity = 21
+		socialism = { 
+			popularity = 17
 		}
 		fascism = {
-			popularity = 0
+			popularity = 13
 		}
-		neutrality = {
-			popularity = 0
+		national_socialism = {
+			popularity = 7
 		}
-		communism = {
-			popularity = 79
+		vanguard_communism = {
+			popularity = 28
+		}
+		social_democracy = {
+			popularity = 11
+		}
+		social_liberalism = {
+			popularity = 8
+		}
+		marxist_leninist = {
+			popularity = 16
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = vanguard_communism
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = no
@@ -45,7 +54,7 @@ create_country_leader = {
 	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
 	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = vanguardist
 }
 
 create_country_leader = {

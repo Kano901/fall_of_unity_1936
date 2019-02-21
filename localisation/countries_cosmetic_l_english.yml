@@ -716,3 +716,13 @@
  PRM_UNIFIED_fascism:0 "Russian Empire"
  PRM_UNIFIED_fascism_DEF:0 "the Russian Empire"
  PRM_UNIFIED_fascism_ADJ:0 "Russian"
+ #####
+ SGR_UNITED_national_socialism:0 "South German Reich"
+ SGR_UNITED_national_socialism_DEF:0 "the South German Reich"
+ SGR_UNITED_national_socialism_ADJ:0 "South German"
+ SGR_UNITED_fascism:0 "South German State"
+ SGR_UNITED_fascism_DEF:0 "the South German State"
+ SGR_UNITED_fascism_ADJ:0 "South German"
+ SGR_UNITED_despotism:0 "South German Republic"
+ SGR_UNITED_despotism_DEF:0 "the South German Republic"
+ SGR_UNITED_despotism_ADJ:0 "South German"

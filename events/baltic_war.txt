@@ -1,0 +1,574 @@
+﻿add_namespace = baltic_war
+
+country_event = {
+	id = baltic_war.1
+	title = baltic_war.1.t
+	desc = baltic_war.1.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = no
+	
+	trigger = {
+		tag = BAL
+		AND = {
+			has_political_power < -50
+			has_stability < 50
+			date > 1936.6.1
+		}
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = { # Troubling...
+		name = baltic_war.1.a
+		ai_chance = { factor = 90 }
+		BAL = {
+			country_event = { days = 10 id = baltic_war.2 }
+			add_war_support = -0.1
+			add_stability = -0.1
+			add_political_power = -100
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.2
+	title = baltic_war.2.t
+	desc = baltic_war.2.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # For the Federation!
+		name = baltic_war.2.a
+		ai_chance = { factor = 90 }
+		BAL = {
+			country_event = { days = 1 id = baltic_war.3 }
+			EST = {
+				add_state_core = 13
+				transfer_state = 13
+				add_state_core = 191
+				transfer_state = 191
+				add_state_core = 771
+				add_state_core = 890
+			}
+			EST = {
+				country_event = { days = 4 id = baltic_war.4 }
+			}
+			LIT = {
+				add_state_core = 11
+				transfer_state = 11
+				add_state_core = 903
+				transfer_state = 903
+				add_state_core = 96
+				add_state_core = 189
+				add_state_core = 188
+			}
+			LIT = {
+				country_event = { days = 4 id = baltic_war.5 }
+			}
+		}
+	}
+	
+	option = { # For Estonia!
+		name = baltic_war.2.b
+		ai_chance = { factor = 90 }
+		BAL = {
+			country_event = { days = 1 id = baltic_war.3 }
+			EST = { change_tag_from = ROOT }
+			EST = {
+				add_state_core = 13
+				transfer_state = 13
+				add_state_core = 191
+				transfer_state = 191
+				add_state_core = 771
+				add_state_core = 890
+			}
+			EST = {
+				country_event = { days = 4 id = baltic_war.4 }
+			}
+			LIT = {
+				add_state_core = 11
+				transfer_state = 11
+				add_state_core = 903
+				transfer_state = 903
+				add_state_core = 96
+				add_state_core = 189
+				add_state_core = 188
+			}
+			LIT = {
+				country_event = { days = 4 id = baltic_war.5 }
+			}
+		}
+	}
+	
+	option = { # For Lithuania!
+		name = baltic_war.2.c
+		ai_chance = { factor = 90 }
+		BAL = {
+			country_event = { days = 1 id = baltic_war.3 }
+			LIT = { change_tag_from = ROOT }
+			EST = {
+				add_state_core = 13
+				transfer_state = 13
+				add_state_core = 191
+				transfer_state = 191
+				add_state_core = 771
+				add_state_core = 890
+			}
+			EST = {
+				country_event = { days = 4 id = baltic_war.4 }
+			}
+			LIT = {
+				add_state_core = 11
+				transfer_state = 11
+				add_state_core = 903
+				transfer_state = 903
+				add_state_core = 96
+				add_state_core = 189
+				add_state_core = 188
+			}
+			LIT = {
+				country_event = { days = 4 id = baltic_war.5 }
+			}
+		}
+	}
+}
+
+news_event = {
+	id = baltic_war.3
+	title = baltic_war.3.t
+	desc = baltic_war.3.desc
+	picture = GFX_news_event_016
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Revolution!
+		name = baltic_war.3.a
+		trigger = { TAG = EST }
+	}
+	
+	option = { # For Lithuania!
+		name = baltic_war.3.b
+		trigger = { TAG = LIT }
+	}
+	
+	option = { # For the Federation!
+		name = baltic_war.3.c
+		trigger = { TAG = BAL }
+	}
+	
+	option = { # Troubling
+		name = baltic_war.3.d
+		trigger = {
+			NOT = {
+				OR = {
+					TAG = BAL
+					TAG = EST
+					TAG = LIT
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.4
+	title = baltic_war.4.t
+	desc = baltic_war.4.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Onwards comrades!
+		name = baltic_war.4.a
+		ai_chance = { factor = 90 }
+		EST = {
+			add_war_support = 0.1
+			add_stability = 0.05
+			load_oob = "EST_revolt"
+			declare_war_on = { target = BAL type = annex_everything }
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.5
+	title = baltic_war.5.t
+	desc = baltic_war.5.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Crush the scum!
+		name = baltic_war.5.a
+		ai_chance = { factor = 90 }
+		LIT = {
+			add_war_support = 0.1
+			add_stability = 0.05
+			load_oob = "LIT_revolt"
+			declare_war_on = {target = BAL type = annex_everything }
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.6
+	title = baltic_war.6.t
+	desc = baltic_war.6.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = no
+	
+	trigger = {
+		tag = LIT
+		AND = {
+			has_war_with = BAL
+			country_exists = EST
+			has_full_control_of_state = 188
+			has_full_control_of_state = 189
+			has_full_control_of_state = 11
+			
+		}
+		EST = {
+			has_war_with = BAL
+			has_full_control_of_state = 13
+			has_full_control_of_state = 191
+		}
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = { # Split Latvia
+		name = baltic_war.6.a
+		ai_chance = { factor = 90 }
+		EST = {
+			country_event = { days = 5 id = baltic_war.7 }
+		}
+	}
+	
+	option = { # Offer Ceasefire
+		name = baltic_war.6.b
+		ai_chance = { factor = 90 }
+		EST = {
+			country_event = { days = 5 id = baltic_war.8 }
+		}
+	}
+	
+	option = { # It's all ours!
+		name = baltic_war.6.c
+		ai_chance = { factor = 90 }
+		LIT = {
+			add_political_power = -100
+			add_war_support = -0.1
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.7
+	title = baltic_war.7.t
+	desc = baltic_war.7.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = baltic_war.7.a
+		ai_chance = { factor = 90 }
+		LIT = {
+			country_event = { days = 5 id = baltic_war.9 }
+			add_state_claim = 190
+			set_global_flag = split_latvia_flag
+		}
+		EST = {
+			add_state_claim = 12
+			add_state_claim = 773
+		}
+	}
+	option = { # No
+		name = baltic_war.7.b
+		ai_chance = { factor = 90 }
+		LIT = {
+			country_event = { days = 5 id = baltic_war.10 }
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.8
+	title = baltic_war.8.t
+	desc = baltic_war.8.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = baltic_war.8.a
+		ai_chance = { factor = 90 }
+		LIT = {
+			country_event = { days = 5 id = baltic_war.11 }
+			set_global_flag = ceasefire_latvia_flag
+		}
+		LAT = {
+			add_state_core = 12
+			add_state_core = 773
+			add_state_core = 190
+		}
+	}
+	option = { # No
+		name = baltic_war.8.b
+		ai_chance = { factor = 90 }
+		LIT = {
+			country_event = { days = 5 id = baltic_war.12 }
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.9
+	title = baltic_war.9.t
+	desc = baltic_war.9.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = baltic_war.9.a
+		ai_chance = { factor = 90 }
+		LIT = {
+			add_political_power = 75
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.10
+	title = baltic_war.10.t
+	desc = baltic_war.10.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = baltic_war.10.a
+		ai_chance = { factor = 90 }
+		LIT = {
+			add_political_power = -25
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.11
+	title = baltic_war.11.t
+	desc = baltic_war.11.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = baltic_war.11.a
+		ai_chance = { factor = 90 }
+		LIT = {
+			add_political_power = 75
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.12
+	title = baltic_war.12.t
+	desc = baltic_war.12.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = baltic_war.12.a
+		ai_chance = { factor = 90 }
+		LIT = {
+			add_political_power = -25
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.13
+	title = baltic_war.13.t
+	desc = baltic_war.13.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = no
+	
+	trigger = {
+		tag = BAL
+		AND = {
+			has_global_flag = ceasefire_latvia_flag
+		}
+	}
+	
+	mean_time_to_happen = { days = 2 }
+	
+	option = { # We accept
+		name = baltic_war.13.a
+		ai_chance = { factor = 90 }
+		BAL = {
+			country_event = { days = 5 id = baltic_war.14 }
+			LAT = change_tag_from = { ROOT }
+			LAT = {
+				country_event = { days = 5 id = baltic_war.15 }
+				transfer_state = 190
+				transfer_state = 12
+			}
+			LIT = {
+				country_event = { days = 5 id = baltic_war.15 }
+				white_peace = BAL
+				transfer_state = 189
+				transfer_state = 188
+			}
+			EST = {
+				country_event = { days = 5 id = baltic_war.15 }
+				white_peace = BAL
+				transfer_state = 890
+			}
+		}
+	}
+	
+	option = { # To the last man!
+		name = baltic_war.13.b
+		ai_chance = { factor = 90 }
+		BAL = {
+			add_war_support = -0.2
+			LIT = {
+				country_event = { days = 5 id = baltic_war.16 }
+			}
+			EST = {
+				country_event = { days = 5 id = baltic_war.16 }
+			}
+		}
+	}
+}
+
+news_event = {
+	id = baltic_war.14
+	title = baltic_war.14.t
+	desc = baltic_war.14.desc
+	picture = GFX_news_event_016
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Revolution!
+		name = baltic_war.14.a
+		trigger = { TAG = EST }
+	}
+	
+	option = { # For Lithuania!
+		name = baltic_war.14.b
+		trigger = { TAG = LIT }
+	}
+	
+	option = { # For the Federation!
+		name = baltic_war.14.c
+		trigger = { TAG = LAT }
+	}
+	
+	option = { # Troubling
+		name = baltic_war.14.d
+		trigger = {
+			NOT = {
+				OR = {
+					TAG = LAT
+					TAG = EST
+					TAG = LIT
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.15
+	title = baltic_war.15.t
+	desc = baltic_war.15.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = baltic_war.15.a
+		ai_chance = { factor = 90 }
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = baltic_war.16
+	title = baltic_war.16.t
+	desc = baltic_war.16.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = baltic_war.16.a
+		ai_chance = { factor = 90 }
+		add_political_power = -10
+	}
+}
+
+country_event = {
+	id = baltic_war.17
+	title = baltic_war.17.t
+	desc = baltic_war.17.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = no
+	
+	trigger = {
+		tag = LIT
+		AND = {
+			has_global_flag = split_latvia_flag
+			NOT = {
+				country_exists = LAT
+				country_exists = BAL
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 3 }
+	
+	option = { # Split them
+		name = baltic_war.17.a
+		ai_chance = { factor = 90 }
+		LIT = {
+			transfer_state = 188
+			transfer_state = 189
+			transfer_state = 190
+		}
+		EST = {
+			country_event = { days = 10 id = baltic_war.18 }
+			transfer_state = 890
+			transfer_state = 12
+		}
+	}
+}
+
+country_event = {
+	id = baltic_war.18
+	title = baltic_war.18.t
+	desc = baltic_war.18.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = baltic_war.18.a
+		ai_chance = { factor = 90 }
+		add_political_power = 50
+	}
+}

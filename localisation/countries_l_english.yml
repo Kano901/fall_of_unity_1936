@@ -803,8 +803,8 @@
  BAL_fascism_DEF:0 "the Federated Baltic State"
  BAL_fascism_ADJ:0 "Baltic"
  
- LIT_fascism:0 "State of Lithuania"
- LIT_fascism_DEF:0 "the State of Lithuania"
+ LIT_fascism:0 "Iron Wolf Lithuania"
+ LIT_fascism_DEF:0 "Iron Wolf Lithuania"
  LIT_fascism_ADJ:0 "Lithuanian"
  
  LAT_fascism:0 "Latvian State"
@@ -3087,8 +3087,8 @@
  LAT_vanguard_communism_DEF:0 "Latvia"
  LAT_vanguard_communism_ADJ:0 "Latvian"
  
- EST_vanguard_communism:0 "Estonia"
- EST_vanguard_communism_DEF:0 "Estonia"
+ EST_vanguard_communism:0 "Estonian Worker's State"
+ EST_vanguard_communism_DEF:0 "the Estonian Worker's State"
  EST_vanguard_communism_ADJ:0 "Estonian"
  #Slavs#
  SOV_vanguard_communism:0 "Petrograd Soviet"
@@ -4603,8 +4603,8 @@
  LAT_marxist_leninist_DEF:0 "Latvia"
  LAT_marxist_leninist_ADJ:0 "Latvian"
  
- EST_marxist_leninist:0 "Estonia"
- EST_marxist_leninist_DEF:0 "Estonia"
+ EST_marxist_leninist:0 "Estonian Labour Front"
+ EST_marxist_leninist_DEF:0 "the Estonian Labour Front"
  EST_marxist_leninist_ADJ:0 "Estonian"
  #Slavs#
  SOV_marxist_leninist:0 "Petrograd Soviet"

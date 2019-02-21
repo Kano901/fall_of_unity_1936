@@ -1,7 +1,8 @@
+
 state={
 	id=801
 	name="STATE_801"
-	
+
 	history={
 		owner = OCC
 		buildings = {
@@ -12,11 +13,11 @@ state={
 		add_core_of = OCC
 
 	}
-	
+
 	provinces={
-		764 3764 3961 6975 9736 
+		764 3764 6975 9736 
 	}
 	manpower=112665
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

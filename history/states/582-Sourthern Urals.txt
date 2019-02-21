@@ -1,14 +1,10 @@
 
 state={
 	id=582
-	name="STATE_582" # Magnitogorsk
-	manpower = 1144991
-	
-	state_category = town
-	
+	name="STATE_582"
 	resources={
-		steel=40 # was: 72
-		oil=6 # was: 12
+		steel=40.000
+		oil=6.000
 	}
 
 	history={
@@ -17,16 +13,21 @@ state={
 			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 1
+
 		}
 		victory_points = {
-			10256 3
+			10256 3 
 		}
 		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = MAG
+
 	}
 
 	provinces={
-		1334 1406 4215 4261 4265 4311 4383 4411 7281 7300 7328 7373 7401 10185 10224 10256 12200 
+		1334 4215 4411 7281 7328 7401 10196 10224 10256 
 	}
+	manpower=1144991
+	buildings_max_level_factor=1.000
+	state_category=town
 }

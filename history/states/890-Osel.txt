@@ -4,7 +4,6 @@ state={
 	
 	history={
 		owner = BAL
-		add_core_of = EST
 		add_core_of = BAL
 		buildings = {
 			infrastructure = 4

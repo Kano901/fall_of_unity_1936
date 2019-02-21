@@ -1,0 +1,23 @@
+state={
+	id=973
+	name="STATE_973"
+	
+	history={
+		owner = MAL
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		
+		add_core_of = MAL
+	}
+	
+	provinces={
+		1348 1376 1392 4355 4384 7399 10297 12255 
+	}
+	manpower=1100000
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

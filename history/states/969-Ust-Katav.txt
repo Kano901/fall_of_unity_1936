@@ -1,0 +1,22 @@
+state={
+	id=969
+	name="STATE_969"
+	
+	history={
+		owner = MAG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		
+		add_core_of = MAG
+		add_core_of = SOV
+	}
+	
+	provinces={
+		361 10136 10142 12117 
+	}
+	manpower=85200
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

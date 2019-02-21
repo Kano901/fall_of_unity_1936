@@ -1,13 +1,21 @@
+
 state={
 	id=806
 	name="STATE_806"
-	
+
 	history={
 		owner = SAR
+		victory_points = {
+			6973 1 
+		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
 			dockyard = 2
+			6973 = {
+				naval_base = 10
+
+			}
 
 		}
 		add_core_of = ITA
@@ -15,11 +23,11 @@ state={
 		add_core_of = SRI
 
 	}
-	
+
 	provinces={
-		3772 6788 11891 
+		3772 6788 6973 11891 
 	}
 	manpower=1123998
 	buildings_max_level_factor=1.000
-	state_category = large_city
+	state_category=large_city
 }

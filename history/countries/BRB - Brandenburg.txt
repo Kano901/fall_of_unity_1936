@@ -75,6 +75,10 @@ set_politics = {
 
 }
 
+create_faction = "Deutscher-Pakt"
+add_to_faction = BRB
+add_to_faction = NOG
+
 create_country_leader = {
 	name = ""
 	desc = "POLITICS_THORVALD_STAUNING_DESC"

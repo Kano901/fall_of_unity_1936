@@ -199,4 +199,8 @@ MAU = "countries/Mauritania.txt"
 TUA = "countries/Tuareg-Federation.txt"
 SOM = "countries/Somalia.txt"
 PWA = "countries/Portuguese-Africa"
+THR = "countries/Thrace.txt"
+TRO = "countires/Troy.txt"
+CYP = "countries/Cyprus.txt"
+SSS = "countries/Schutzstaffel.txt"
 

@@ -55,35 +55,36 @@ set_convoys = 800
 # DIPLOMACY
 
 	
-create_country_leader = {
-	name = "Neville Chamberlain"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-	
 
 set_politics = {
 
 	parties = {
-		neutrality = { 
-			popularity = 76
+		despotism = { 
+			popularity = 24
 		}
 
 		fascism = {
-			popularity = 10
+			popularity = 3
 		}
 		
-		democratic = {
-			popularity = 14
+		authoritarian_democracy = {
+			popularity = 38
+		}
+		
+		conservatism = {
+			popularity = 12
+		}
+		
+		social_liberalism = {
+			popularity = 8
+		}
+		
+		market_liberalism = {
+			popularity = 15
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = authoritarian_democracy
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no ##suspended through duration of war, which is handled via event
@@ -94,39 +95,14 @@ set_politics = {
 create_faction = Entente
 add_to_faction = ENG
 
-#give_guarantee = CZE
-
-# Order matters - here Chamberlain becomes starting leader
-
-create_country_leader = {
-	name = "Winston Churchill"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
-	}
-}
 
 
 create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
-	expire = "1938.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "King Edward VIII"
+	name = "H.R.H. King Edward VIII"
 	desc = "POLITICS_STANLEY_BALDWIN_DESC"
 	picture = "Portrait_England_Edward-VIII.png"
 	expire = "1938.1.1"
-	ideology = despotic_monarchism
+	ideology = auth_monarchy
 	traits = {
 		
 	}
@@ -143,27 +119,6 @@ create_country_leader = {
 #	}
 #}
 
-create_country_leader = {
-	name = "Oswald Mosley"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "Portrait_Britain_Oswald_Mosley.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Rajani Palme Dutt"
-	desc = "POLITICS_PALME_DUTT_DESC"
-	picture = "Portrait_Britain_Palme_Dutt.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		
-	}
-}
 
 create_field_marshal = {
 	name = "Alan Brooke"

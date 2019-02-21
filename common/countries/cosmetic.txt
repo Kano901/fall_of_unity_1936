@@ -200,3 +200,7 @@ PRM_UNIFIED = {
 	color = rgb { 6 104 0 }
 	color_ui = rgb { 6 104 0 }
 }
+SGR_UNITED = {
+	color = rgb { 0 45 120 }
+	color_ui = rgb { 0 45 120 }
+}

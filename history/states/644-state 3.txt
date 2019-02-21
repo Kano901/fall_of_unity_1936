@@ -2,8 +2,6 @@
 state={
 	id=644
 	name="STATE_644"
-	
-	impassable = yes
 
 	history={
 		owner = SIB
@@ -22,7 +20,7 @@ state={
 	}
 
 	provinces={
-		1722 1745 1819 2853 2877 3184 4006 4229 4455 4878 6211 12549 12592 12634 13061 13204 
+		1722 1745 1819 2853 2877 3184 4006 4229 4455 4878 6211 12549 12592 12634 13061 
 	}
 	manpower=69364
 	buildings_max_level_factor=1.000
